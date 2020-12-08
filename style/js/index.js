@@ -5,7 +5,6 @@ const line1 = document.querySelector('.line1');
 const line2 = document.querySelector('.line2');
 const line3 = document.querySelector('.line3');
 
-
  burger.addEventListener('click', () => {
    line1.classList.toggle('ln1');
    line2.classList.toggle('ln2');
@@ -14,4 +13,3 @@ const line3 = document.querySelector('.line3');
    mainNav.classList.toggle('main-nav-active');
    logo.classList.toggle('d-none');
  });
-

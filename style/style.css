@@ -56,6 +56,9 @@ a:hover {
 	z-index: 1;
 	padding-right: 16px;
 }
+.burger:focus {
+	box-shadow: none;
+}
 .burger div {
 	width: 25px;
 	height: 2px;
