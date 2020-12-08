@@ -3,6 +3,6 @@
  const mainNav = document.querySelector('.main-nav');
 
  burger.addEventListener('click', () => {
-   mainNav.classList.toggle('nav-active');
+   mainNav.classList.toggle('main-nav-active');
  });
 
