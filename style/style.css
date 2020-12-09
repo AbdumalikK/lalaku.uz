@@ -1,11 +1,10 @@
 * {
 	font-size: 14px;
-	font-
 }
 body {
 	box-sizing: content-box;
 	background-color: #FFEE00;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 .z-index {
 	z-index: -1;
@@ -28,10 +27,6 @@ a:hover {
 .navbar > ul {
 	padding-bottom: 32px;
 }
-.navbar {
-	
-}
-
 .main-nav, .nested-nav {
 	list-style-type: none; 
 }
