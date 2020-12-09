@@ -3,8 +3,13 @@
 }
 body {
 	box-sizing: content-box;
-	background-color: #FFEE00;
 	overflow-x: hidden;
+}
+header {
+	display: block;
+	background-color: #FFEE00;
+	width: 100%;
+	height: 100vh;
 }
 .z-index {
 	z-index: -1;
@@ -16,13 +21,18 @@ a:hover {
 	text-decoration: none;
 }
 .text-bold {
+	font-size: 32px;
 	font-weight: bold;
 }
-.pt-80 {
-	padding-top: 80px;
+.pt-120 {
+	padding-top: 120px;
+}
+.mt-90 {
+	margin-top: 30%;
 }
 .wd-1020 {
-	width: 1020px;
+	display: inline-block;
+	width: 35%;
 }
 .navbar > ul {
 	padding-bottom: 32px;
@@ -44,19 +54,13 @@ a:hover {
 	position: fixed;
 	right: 0;
 	top: 0;
-	width: 415px;
+	width: 312px;
 	height: 100vh;
 	margin-right: 0;
 	background-color: white;
 	transform: translateX(100%);
 	transition: transform 0.5s ease-in;
-}
-#header-mask {
-	position: fixed;
-	top: 0;
-	right: 0;
-	background-color: rgba(0,0,0,25);
-	z-index: 25;
+	z-index: 998;
 }
 .logo > ul {
 	margin-bottom: 0px!important;
@@ -82,6 +86,7 @@ a:hover {
 	height: 2px;
 	background-color: #393C41;
 	margin: 5px;
+	z-index: 999;
 }
 .ln1 {
 	transform: rotate(45deg);
@@ -99,4 +104,34 @@ a:hover {
 }
 .main-nav-active {
 	transform: translateX(0%);
+}
+.title {
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+.btn-black {
+	/* width: 352px; */
+	height: 40px;
+	background-color: #393C41;
+	color: white;
+	border: 1px solid #707070;
+	border-radius: 20px;
+}
+.btn-black:hover {
+	color: rgb(151, 236, 229);
+}
+.btn-white {
+	/* width: 352px; */
+	height: 40px;
+	background-color: #FFFFFF;
+	color: #000000;
+	border: 1px solid #707070;
+	border-radius: 20px;
+}
+.btn-white:hover {
+	color: rgb(196, 21, 15);
+}
+.vh100 {
+	width: 100vh;
 }
