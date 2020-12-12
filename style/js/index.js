@@ -12,4 +12,5 @@ const line3 = document.querySelector('.line3');
 
    mainNav.classList.toggle('main-nav-active');
    logo.classList.toggle('d-none');
+   $('li, .logo').toggleClass('menu-links');
  });
