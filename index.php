@@ -42,7 +42,7 @@ function changeLang() {
 	document.getElementById('form_lang').submit();
 }
 </script>
-<?php //if(!isset($_SESSION['lang'])) { ?>
+<?php if(!isset($_SESSION['lang'])) { ?>
 <div class="row lang-position">
 <div class="col-12">
 	<form method="GET" action="" id="form_lang">
@@ -60,7 +60,7 @@ function changeLang() {
 	</form>
 </div>
 </div>
-<? //} ?>
+<? } ?>
 	<div id="fullpage">
     <div class="container-fluid px-0">
 		<header>
@@ -69,7 +69,7 @@ function changeLang() {
 					<!-- navbar -->
 				   <nav class="navbar fixed-top">
 							   <div class="logo">
-								   <img src="style/logo.svg" alt="logo" id="logo">
+								   <img src="style/logo.svg" width="70" height="70" alt="logo" id="logo">
 							   </div>
 			
 							<button type="button" class="btn burger">	

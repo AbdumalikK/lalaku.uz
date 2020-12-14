@@ -19,7 +19,7 @@ body {
 	z-index: -1;
 }
 hr{
-	border: 2px solid black;
+	border: 1px solid black;
 }
 a {
 	text-decoration: none;
@@ -277,4 +277,38 @@ a:hover {
 }
 .textColor-right a {
 	color: #393C41;
+}
+
+
+/* Contact */
+.bg-lalaku{
+	background-color: #FFEE00;
+}
+.mt-contact {
+	margin-top: 100px;
+}
+.contact-title {
+	font-family: Gotham;
+	font-size: 24px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+.contact-main-title {
+	font-family: Gotham;
+	font-size: 32px;
+	font-weight: bold;
+}
+.mt-contact p {
+	margin: 0;
+}
+.input-border{
+	border: 1px solid transparent;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.contact-submit{
+	font-family: Gotham;
+	width: 193px;
+	height: 32px;
+	border-radius: 16px;
 }
