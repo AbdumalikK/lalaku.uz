@@ -1,5 +1,5 @@
 <?php
-
+// slide-menu
 define("_PRODUCT", "المنتج");
     define("_item1", "LALAKU PANTS");
     define("_item2", "LALAKU DIAPERS");
@@ -8,3 +8,6 @@ define("_PRODUCT", "المنتج");
     define("_item5", "LALAKU K95 MASKS");
 define("_CONTACT", "اتصل بنا");
 define("_ABOUT", "حول");
+
+// main-contents
+define("_LEARN_MORE", "أعرف أكثر");

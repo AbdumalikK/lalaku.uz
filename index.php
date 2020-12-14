@@ -42,7 +42,7 @@ function changeLang() {
 	document.getElementById('form_lang').submit();
 }
 </script>
-<?php if(!isset($_SESSION['lang'])) { ?>
+<?php //if(!isset($_SESSION['lang'])) { ?>
 <div class="row lang-position">
 <div class="col-12">
 	<form method="GET" action="" id="form_lang">
@@ -60,7 +60,7 @@ function changeLang() {
 	</form>
 </div>
 </div>
-<? } ?>
+<? //} ?>
 	<div id="fullpage">
     <div class="container-fluid px-0">
 		<header>
@@ -135,10 +135,14 @@ function changeLang() {
 				</div>
 				<div class="row mt-90">
 					<div class="col-12 col-md-6 text-md-right text-center">
-						<button type="button" class="col-5 btn btn-black btn-lg px-5">CONTACT US</button>
+						<button type="button" class="col-5 btn btn-black btn-lg px-5 textColor-left"><a href="#">
+							<?= _CONTACT ?>
+						</a></button>
 					</div>
 					<div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-						<button type="button" class="col-5 btn btn-white btn-lg px-5">LEARN MORE</button>
+						<button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="#">
+							<?= _LEARN_MORE ?>
+						</a></button>
 					</div>
 				</div>
 				<div class="text-center down pt-5 pl-4">
@@ -162,10 +166,14 @@ function changeLang() {
 	</div>
 		<div class="row mt-90">
 		 <div class="col-12 col-md-6 text-md-right text-center">
-			 <button type="button" class="col-5 btn btn-black btn-lg px-5">CONTACT US</button>
+			 <button type="button" class="col-5 btn btn-black btn-lg px-5 textColor-left"><a href="#">
+				 <?= _CONTACT ?>
+			 </a></button>
 		 </div>
 		 <div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-			 <button type="button" class="col-5 btn btn-white btn-lg px-5">LEARN MORE</button>
+			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="#">
+				 <?= _LEARN_MORE ?>
+			 </a></button>
 		 </div>
 		 <div class="col-12">
 			 <span class="arrow-down"></span>
@@ -190,10 +198,14 @@ function changeLang() {
 	</div>
 		<div class="row mt-90">
 		 <div class="col-12 col-md-6 text-md-right text-center">
-			 <button type="button" class="col-5 btn btn-black btn-lg px-5">CONTACT US</button>
+			 <button type="button" class="col-5 btn btn-black btn-lg px-5 textColor-left"><a href="#">
+				 <?= _CONTACT ?>
+			 </a></button>
 		 </div>
 		 <div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-			 <button type="button" class="col-5 btn btn-white btn-lg px-5">LEARN MORE</button>
+			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="#">
+				 <?= _LEARN_MORE ?>
+			 </a></button>
 		 </div>
 	 </div>
 	 <div class="text-center pt-4 pl-2">
@@ -215,10 +227,14 @@ function changeLang() {
 	</div>
 		<div class="row mt-90">
 		 <div class="col-12 col-md-6 text-md-right text-center">
-			 <button type="button" class="col-5 btn btn-black btn-lg px-5">CONTACT US</button>
+			 <button type="button" class="col-5 btn btn-black btn-lg px-5 textColor-left"><a href="#">
+				 <?= _CONTACT ?>
+			 </a></button>
 		 </div>
 		 <div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-			 <button type="button" class="col-5 btn btn-white btn-lg px-5">LEARN MORE</button>
+			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="#">
+				 <?= _LEARN_MORE ?>
+			 </a></button>
 		 </div>
 	 </div>
 	 <div class="text-center pt-4 pl-2">
@@ -240,10 +256,14 @@ function changeLang() {
 	</div>
 		<div class="row mt-90">
 		 <div class="col-12 col-md-6 text-md-right text-center">
-			 <button type="button" class="col-5 btn btn-black btn-lg px-5">CONTACT US</button>
+			 <button type="button" class="col-5 btn btn-black btn-lg px-5 textColor-left"><a href="#">
+				 <?= _CONTACT ?>
+			 </a></button>
 		 </div>
 		 <div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-			 <button type="button" class="col-5 btn btn-white btn-lg px-5">LEARN MORE</button>
+			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="#">
+				 <?= _LEARN_MORE ?>
+			 </a></button>
 		 </div>
 	 </div>
 	 <div class="text-center pt-4 pl-2">
@@ -278,83 +298,7 @@ function changeLang() {
 	</div>
 </div>
 	<script src="style/js/index.js"></script>
-	<script>
-var myFullpage = new fullpage('#fullpage', {
-	//Navigation
-	menu: '#menu',
-	lockAnchors: false,
-	anchors:['firstPage', 'secondPage', 'thirdPage', 'forthPage', 'fifthPage', 'sixthPage'],
-	navigation: true,
-	navigationPosition: 'right',
-	navigationTooltips: ['firstSlide', 'secondSlide'],
-	showActiveTooltip: false,
-	slidesNavigation: false,
-	slidesNavPosition: 'bottom',
-
-	//Scrolling
-	css3: false,
-	scrollingSpeed: 700,
-	autoScrolling: true,
-	fitToSection: true,
-	fitToSectionDelay: 1000,
-	scrollBar: false,
-	easing: 'easeInOutCubic',
-	easingcss3: 'ease',
-	loopBottom: true,
-	loopTop: false,
-	loopHorizontal: true,
-	continuousVertical: false,
-	continuousHorizontal: false,
-	scrollHorizontally: false,
-	interlockedSlides: false,
-	dragAndMove: false,
-	offsetSections: false,
-	resetSliders: false,
-	fadingEffect: false,
-	normalScrollElements: '#element1, .element2',
-	scrollOverflow: true,
-	scrollOverflowReset: false,
-	scrollOverflowOptions: null,
-	touchSensitivity: 15,
-	bigSectionsDestination: null,
-
-	//Accessibility
-	keyboardScrolling: true,
-	animateAnchor: true,
-	recordHistory: true,
-
-	//Design
-	controlArrows: true,
-	verticalCentered: true,
-	sectionsColor : ['#ccc', '#fff'],
-	paddingTop: '0em',
-	paddingBottom: '10px',
-	fixedElements: '#header, .footer',
-	responsiveWidth: 0,
-	responsiveHeight: 0,
-	responsiveSlides: false,
-	parallax: false,
-	parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
-	cards: false,
-	cardsOptions: {perspective: 100, fadeContent: true, fadeBackground: true},
-
-	//Custom selectors
-	sectionSelector: '.section',
-	slideSelector: '.slide',
-
-	lazyLoading: true,
-
-	//events
-	onLeave: function(origin, destination, direction){},
-	afterLoad: function(origin, destination, direction){},
-	afterRender: function(){},
-	afterResize: function(width, height){},
-	afterReBuild: function(){},
-	afterResponsive: function(isResponsive){},
-	afterSlideLoad: function(section, origin, destination, direction){},
-	onSlideLeave: function(section, origin, destination, direction){}
-});
-	</script>
+	<script src="style/js/config-scrolling.js"></script>
 </body>
 
 </html>

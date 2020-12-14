@@ -9,12 +9,12 @@ body {
 	box-sizing: border-box;
 	overflow-x: hidden;
 }
-header {
+/* header {
 	display: block;
-	/* background-color: #FFEE00; */
+	background-color: #FFEE00;
 	width: 100%;
 	height: 100vh;
-}
+} */
 .z-index {
 	z-index: -1;
 }
@@ -57,7 +57,7 @@ a:hover {
 }
 .logo {
 	color: black;
-	animation: logo 3s;
+	animation: logo 2s;
 }
 .main-nav {
 	position: fixed;
@@ -203,7 +203,9 @@ a:hover {
 	-webkit-animation: bounce 2s infinite;
 	animation: bounce 2s infinite;
   }
-  
+  .nav-logo {
+	  animation-name: nav-logo;
+  }
   @keyframes bounce {
 	0%, 20%, 50%, 80%, 100% {
 	  transform: translateY(0);
@@ -216,17 +218,18 @@ a:hover {
 	}
   }
 
-  @keyframes logo {
-	from {transform: translateX(-70px);}
+  /* @keyframes logo {
+	from {transform: translateX(0px);}
 	to {transform: translateX(0px);}
-  }
+  } */
 
   @keyframes menu-links {
 	from {transform: translateX(300px);}
 	to {transform: translateX(0px);}
   }
+
 .menu-links {
-	animation: menu-links 2s;
+	animation: menu-links 1s;
 }
 .footer {
 	height: 20%;
@@ -246,11 +249,16 @@ a:hover {
 }
 .lang-position{
 	position: absolute;
-	top: 43%;
-	left: 26%;
+	top: 30%;
+	left: 23%;
 	z-index: 4;
 }
-@media screen and  
+@media screen and (max-width: 1008px) {
+	.lang-position{
+		left: 0;
+		margin: 0 20px;
+	}
+}
 .lang-card {
 	padding: 32px 24px;
 }
@@ -263,4 +271,10 @@ a:hover {
 	color: #393C41;
 	display: inline-block;
 	font-size: 14px;
+}
+.textColor-left a {
+	color: #ffff;
+}
+.textColor-right a {
+	color: #393C41;
 }

@@ -9,3 +9,5 @@ define("_PRODUCT", "PRODUCT");
 define("_CONTACT", "CONTACT US");
 define("_ABOUT", "ABOUT US");
 
+// main-contents
+define("_LEARN_MORE", "LEARN MORE");
