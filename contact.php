@@ -1,20 +1,35 @@
 <?php
-session_start();
+include('core/config.php');
+include_once "core/lang.php";
 
-if(isset($_GET['lang']) && !empty($_GET['lang'])){
-	$_SESSION['lang'] = $_GET['lang'];
 
-	if(isset($_SESSION['lang']) && $_SESSION['lang'] != $_GET['lang']){
-		echo "<script type='text/javascript'>location.reload();</script>";
-	}
+// if submit send
+if(isset($_POST['submit'])) {
+// get of these value to variable
+$email = $_POST['email'];
+$message = $_POST['comment'];
+// $msg_date = strtotime('now');
+// $formcontent="From: $email \n Message: $message";
+// $recipient = "uzbekistanes2001@gmail.com";
+// mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+
+
+// insert data to database
+$contact = "INSERT INTO contact (email, comment) VALUES ('$email', '$message')";
+
+// if query sent
+if($connect->query($contact) == TRUE) {
+    echo header("Location: message_sent.php");
+} else {
+    echo "Error: ".$contact."</br>".$connect->$error;
 }
 
-if(isset($_SESSION['lang'])){
-	include "lang/lang_".$_SESSION['lang'].".php";
-} else {
-	include "lang/lang_en.php";
 }
 ?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,15 +42,15 @@ if(isset($_SESSION['lang'])){
     <script src="style/bootstrap4/js/bootstrap.min.js"></script>
 </head>
 <body class="bg-lalaku">
-
+<!-- container navbar -->
     <div class="container-fluid px-0">
-
+        <!-- navbar -->
 			<div class="row">
 				<div class="col-6">
 					<!-- navbar -->
 				   <nav class="navbar fixed-top">
 							   <div class="logo">
-								   <img src="style/logo.svg" width="70" height="70" alt="logo" id="logo">
+								   <a href="index.php"><img src="style/logo.svg" width="70" height="70" alt="logo" id="logo"></a>
 							   </div>
 			
 							<button type="button" class="btn burger">	
@@ -88,9 +103,12 @@ if(isset($_SESSION['lang'])){
 				</div>
 			</div>
         </div>
-        
+       <!-- end navbar -->
         
     </div>
+    <!-- end container -->
+
+    <!-- contaiener titles -->
     <div class="container pt-120">
         <div class="col-12 text-center">
             <h1 class="contact-main-title">WE'RE HERE TO HELP</h1>
@@ -125,24 +143,40 @@ Tashkent, Uzbekistan</p>
             </div>
         </div>    
     </div>
-<form action="">
+    <!-- end container titles -->
+    <!-- validation script -->
+    <script>
+    function validateemail()  
+            {  
+            var x=document.contact.email.value;  
+            var atposition=x.indexOf("@");  
+            var dotposition=x.lastIndexOf(".");  
+            if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+              alert("Please enter a valid e-mail address!");  
+              return false;  
+              }  
+            }  
+    </script>
+    <!-- end valid -->
+    
+    <!-- form contact -->
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" name="contact" method="post" onsubmit="return validateemail();">
     <div class="container mt-contact">
         <div class="row">
             <div class="col-lg-12">
-                <input type="text" placeholder="E-mail:" class="form-control input-border">
+                <input type="email" name="email" placeholder="E-mail:" class="form-control input-border">
             </div>
             <div class="col-lg-12 mt-4">
-                <textarea name="comment" class="form-control input-border" placeholder="Text" id="comment" cols="30" rows="10"></textarea>
+                <textarea type="text" name="comment" class="form-control input-border" placeholder="Text" id="comment" cols="30" rows="10"></textarea>
             </div>
         </div>
 
             <div class="text-center py-5">
-                <button type="submit" class="btn btn-dark contact-submit">Submit</button>
+                <button type="submit" name="submit" class="btn btn-dark contact-submit">Submit</button>
             </div>
     </div>
-
 </form>
-
+    <!-- end form -->
 <script src="style/js/index.js"></script>
 </body>
 </html>

@@ -1,19 +1,5 @@
 <?php
-session_start();
-
-if(isset($_GET['lang']) && !empty($_GET['lang'])){
-	$_SESSION['lang'] = $_GET['lang'];
-
-	if(isset($_SESSION['lang']) && $_SESSION['lang'] != $_GET['lang']){
-		echo "<script type='text/javascript'>location.reload();</script>";
-	}
-}
-
-if(isset($_SESSION['lang'])){
-	include "lang/lang_".$_SESSION['lang'].".php";
-} else {
-	include "lang/lang_en.php";
-}
+include_once "core/lang.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,6 +28,7 @@ function changeLang() {
 	document.getElementById('form_lang').submit();
 }
 </script>
+<!-- checking, if lang has not choosen  -->
 <?php if(!isset($_SESSION['lang'])) { ?>
 <div class="row lang-position">
 <div class="col-12">
@@ -61,6 +48,9 @@ function changeLang() {
 </div>
 </div>
 <? } ?>
+<!-- end checking -->
+
+<!-- whole page container -->
 	<div id="fullpage">
     <div class="container-fluid px-0">
 		<header>
@@ -69,7 +59,7 @@ function changeLang() {
 					<!-- navbar -->
 				   <nav class="navbar fixed-top">
 							   <div class="logo">
-								   <img src="style/logo.svg" width="70" height="70" alt="logo" id="logo">
+							   <a href="index.php"><img src="style/logo.svg" width="70" height="70" alt="logo" id="logo"></a>
 							   </div>
 			
 							<button type="button" class="btn burger">	
@@ -86,7 +76,7 @@ function changeLang() {
 								<ul class="main-nav">
 									<!-- <div class="row mr-0"> -->
 										<div class="my-4 px-0 logo">
-											<img src="style/logo.svg" alt="logo">
+										<a href="index.php"><img src="style/logo.svg" alt="logo"></a>
 										</div>
 									<!-- </div> -->
 					
@@ -111,7 +101,7 @@ function changeLang() {
 									</ul>
 									</li>
 									<li class="nav-links">
-									<a href="#" class="nested-links"><?= _CONTACT ?></a>
+									<a href="contact.php" class="nested-links"><?= _CONTACT ?></a>
 									</li>
 									<li class="nav-links">
 									<a href="#" class="nested-links"><?= _ABOUT ?></a>
@@ -125,6 +115,7 @@ function changeLang() {
 			
 		</div>
 	</header>
+	<!-- section 0 -->
 	<div class="sct0 section">
 		<!-- main text -->
 		<div class="row">
@@ -154,7 +145,7 @@ function changeLang() {
 		</div>
 		<!-- end main text -->
 	</div>
-		
+<!-- section 1 -->
 <section class="sct1 section">
 	<div class="row">
 		<div class="col-12 text-center">
@@ -186,7 +177,7 @@ function changeLang() {
 	</div>
 </section>
 
-
+<!-- section 2 -->
 <section class="sct2 section">
 	<div class="row">
 		<div class="col-12 text-center">
@@ -215,7 +206,7 @@ function changeLang() {
 	</div>
 </section>
 
-
+<!-- section 3 -->
 <section class="sct3 section">
 	<div class="row">
 		<div class="col-12 text-center">
@@ -244,7 +235,7 @@ function changeLang() {
 	</div>
 </section>
 
-
+<!-- section 4 -->
 <section class="sct4 section">
 	<div class="row">
 		<div class="col-12 text-center">
@@ -273,7 +264,7 @@ function changeLang() {
 	</div>
 </section>
 
-
+<!-- section 5 -->
 <section class="sct5 section">
 	<div class="row">
 		<div class="col-12 text-center">
@@ -297,6 +288,7 @@ function changeLang() {
 
 	</div>
 </div>
+<!-- end whole page container -->
 	<script src="style/js/index.js"></script>
 	<script src="style/js/config-scrolling.js"></script>
 </body>
