@@ -123,12 +123,12 @@ function changeLang() {
 	<div class="sct0 section">
 		<!-- main text -->
 		<div class="row title">
-			<div class="col-12 pt-120 text-center">
+			<div class="col-12 text-center">
 				<h1 class="text-bold">LALAKU PANTS</h1>
 				<div class="wd-1020">
 					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
 				</div>
-				<div class="row main-content-button">
+				<div class="row main-content-button pt-5">
 					<div class="col-12 col-md-6 text-md-right text-center">
 						<button type="button" class="col-md-5 col-7 btn btn-black px-5 textColor-left"><a href="contact.php">
 							<?= _CONTACT ?>

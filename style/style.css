@@ -118,6 +118,7 @@ a:hover {
 	/* position: absolute;
 	top: 0; */
 	z-index: 1;
+	/* margin-top: 95px; */
 }
 .btn-black {
 	/* width: 352px; */
@@ -266,7 +267,9 @@ a:hover {
 	}
 	.title {
 		position: absolute;
-		top: 0;
+		top: 12%;
+		left: 10px;
+		margin-top: 0px;
 	}
 }
 .lang-card {
