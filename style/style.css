@@ -247,16 +247,22 @@ a:hover {
 	color: black;
 	border-radius: 20px;
 }
-.lang-position{
+.lang-position {
 	position: absolute;
-	top: 30%;
+	top: 16%;
 	left: 23%;
 	z-index: 4;
 }
-@media screen and (max-width: 1008px) {
-	.lang-position{
-		left: 0;
-		margin: 0 20px;
+@media screen and (max-width: 500px) {
+	.lang-card > h1{
+		font-size: 15px;
+	}
+	.lang-card > h2{
+		font-size: 14px;
+	}
+	.lang-position {
+		top: 27%;
+		left: 0%;
 	}
 }
 .lang-card {

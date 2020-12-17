@@ -29,8 +29,8 @@ function changeLang() {
 }
 </script>
 <!-- checking, if lang has not choosen  -->
-<?php if(!isset($_SESSION['lang'])) { ?>
-	<div class="row lang-position">
+<?php //if(!isset($_SESSION['lang'])) { ?>
+	<div class="row lang-position my-0 mx-auto">
 		<div class="col-12">
 			<form method="GET" action="" id="form_lang">
 				<div class="lang-card text-center">
@@ -48,7 +48,7 @@ function changeLang() {
 		</div>
 	</div>
 	<div class="shadow">
-<? } ?>
+<? //} ?>
 <!-- end checking -->
 
 
