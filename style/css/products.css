@@ -1,0 +1,30 @@
+.sct0 {
+    background-image: url('../images/products/product-1.png');
+    background-size: 730px;
+}
+.sct1 {
+    background-image: url('../images/products/product-2.png');
+    background-size: 730px;
+}
+
+
+
+
+
+
+.product-contact-top {
+    margin-top: 45%;
+}
+
+@media screen and (max-width: 570px) {
+    .product-contact-top {
+        margin-top: 168%;
+    }
+} 
+
+.description-content {
+    display: inline-block;
+    width: 50%;
+    margin-top: 300px;
+    margin-right: 100px;
+}

@@ -30,25 +30,27 @@ function changeLang() {
 </script>
 <!-- checking, if lang has not choosen  -->
 <?php if(!isset($_SESSION['lang'])) { ?>
-<div class="row lang-position">
-<div class="col-12">
-	<form method="GET" action="" id="form_lang">
-	<div class="lang-card text-center">
-		<h1>WELCOME TO THE SOF HYGIENIC INTERNATIONAL WEBSITE</h1>
-		<hr>
-		<h2>SELECT YOUR LANGUAGE</h2>
-		<button type="submit" value="arabic" name="lang" class="btn d-block m-auto" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'arabic'); ?>>
-		<p class="lang-size">Arabic</p>
-		</button>
-		<button type="submit" value="en" name="lang" class="btn d-block m-auto" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'en'); ?>>
-		<p class="lang-size">English</p>
-		</button>
+	<div class="row lang-position">
+		<div class="col-12">
+			<form method="GET" action="" id="form_lang">
+				<div class="lang-card text-center">
+					<h1>WELCOME TO THE SOF HYGIENIC INTERNATIONAL WEBSITE</h1>
+					<hr>
+					<h2>SELECT YOUR LANGUAGE</h2>
+					<button type="submit" value="arabic" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'arabic'); ?>>
+						<p class="lang-size">Arabic</p>
+					</button>
+					<button type="submit" value="en" name="lang" class="btn d-block m-auto" id="lang" <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] === 'en'); ?>>
+						<p class="lang-size">English</p>
+					</button>
+				</div>
+			</form>
+		</div>
 	</div>
-	</form>
-</div>
-</div>
+	<div class="shadow">
 <? } ?>
 <!-- end checking -->
+
 
 <!-- whole page container -->
 	<div id="fullpage">
@@ -110,11 +112,13 @@ function changeLang() {
 				   <!-- end burger menu -->
 
 				</div>
+				
 			</div>
 			
 			
 		</div>
 	</header>
+	<div id="menu-shadow" class="">
 	<!-- section 0 -->
 	<div class="sct0 section">
 		<!-- main text -->

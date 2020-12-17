@@ -1,4 +1,5 @@
 <?php
+define("_HOME", "منزل");
 // slide-menu
 define("_PRODUCT", "المنتج");
     define("_item1", "LALAKU PANTS");

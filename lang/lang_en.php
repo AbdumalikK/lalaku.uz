@@ -1,5 +1,6 @@
 <?php
-
+define("_HOME", "HOME");
+// side-menu
 define("_PRODUCT", "PRODUCT");
     define("_item1", "LALAKU PANTS");
     define("_item2", "LALAKU DIAPERS");
