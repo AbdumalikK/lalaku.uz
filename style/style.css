@@ -115,8 +115,8 @@ a:hover {
 	transform: translateX(0%);
 }
 .title {
-	position: absolute;
-	top: 0;
+	/* position: absolute;
+	top: 0; */
 	z-index: 1;
 }
 .btn-black {
@@ -253,7 +253,7 @@ a:hover {
 	left: 23%;
 	z-index: 4;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 570px) {
 	.lang-card > h1{
 		font-size: 15px;
 	}
@@ -263,6 +263,10 @@ a:hover {
 	.lang-position {
 		top: 27%;
 		left: 0%;
+	}
+	.title {
+		position: absolute;
+		top: 0;
 	}
 }
 .lang-card {

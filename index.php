@@ -29,7 +29,7 @@ function changeLang() {
 }
 </script>
 <!-- checking, if lang has not choosen  -->
-<?php //if(!isset($_SESSION['lang'])) { ?>
+<?php if(!isset($_SESSION['lang'])) { ?>
 	<div class="row lang-position my-0 mx-auto">
 		<div class="col-12">
 			<form method="GET" action="" id="form_lang">
@@ -48,7 +48,7 @@ function changeLang() {
 		</div>
 	</div>
 	<div class="shadow">
-<? //} ?>
+<? } ?>
 <!-- end checking -->
 
 
@@ -122,8 +122,8 @@ function changeLang() {
 	<!-- section 0 -->
 	<div class="sct0 section">
 		<!-- main text -->
-		<div class="row">
-			<div class="col-12 pt-120 text-center z-index title">
+		<div class="row title">
+			<div class="col-12 pt-120 text-center">
 				<h1 class="text-bold">LALAKU PANTS</h1>
 				<div class="wd-1020">
 					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
