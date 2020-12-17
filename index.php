@@ -135,7 +135,7 @@ function changeLang() {
 						</a></button>
 					</div>
 					<div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-						<button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="#">
+						<button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="products.php#firstPage">
 							<?= _LEARN_MORE ?>
 						</a></button>
 					</div>
@@ -166,7 +166,7 @@ function changeLang() {
 			 </a></button>
 		 </div>
 		 <div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="#">
+			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="products.php#secondPage">
 				 <?= _LEARN_MORE ?>
 			 </a></button>
 		 </div>
@@ -198,7 +198,7 @@ function changeLang() {
 			 </a></button>
 		 </div>
 		 <div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="#">
+			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="products.php#thirdtPage">
 				 <?= _LEARN_MORE ?>
 			 </a></button>
 		 </div>
@@ -227,7 +227,7 @@ function changeLang() {
 			 </a></button>
 		 </div>
 		 <div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="#">
+			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="products.php#forthPage">
 				 <?= _LEARN_MORE ?>
 			 </a></button>
 		 </div>
@@ -256,7 +256,7 @@ function changeLang() {
 			 </a></button>
 		 </div>
 		 <div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="#">
+			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="products.php#fifthPage">
 				 <?= _LEARN_MORE ?>
 			 </a></button>
 		 </div>
@@ -282,7 +282,7 @@ function changeLang() {
 		
 		</div>
 		<div class="text-center pt-5">
-		<a href="#firstPage">	
+		<a href="#sixthPage">	
 			<img class="arrow-up animate-arrow" src="style/icons/arrow-up.svg" alt="up">
 		</a>
 		</div>
