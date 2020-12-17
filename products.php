@@ -62,7 +62,7 @@ function changeLang() {
 					<!-- navbar -->
 				   <nav class="navbar fixed-top">
 							   <div class="logo">
-							   <a href="index.php"><img src="style/logo.svg" width="53" height="52" alt="logo" id="logo"></a>
+							   <a href="index.php"><img src="style/logo.svg" width="53" height="53" alt="logo" id="logo"></a>
 							   </div>
 			
 							<button type="button" class="btn burger">	

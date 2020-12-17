@@ -290,6 +290,15 @@ a:hover {
 	opacity: 0.3;
 	z-index: 0;
 }
+.main-content-button {
+	margin-top: 31%;
+}
+
+@media screen and (max-width: 570px) {
+	.main-content-button {
+		margin-top: 60%;
+	}
+}
 
 /* Contact */
 .bg-lalaku{

@@ -61,7 +61,7 @@ function changeLang() {
 					<!-- navbar -->
 				   <nav class="navbar fixed-top">
 							   <div class="logo">
-							   <a href="index.php"><img src="style/logo.svg" width="70" height="70" alt="logo" id="logo"></a>
+							   <a href="index.php"><img src="style/logo.svg" width="53" height="53" alt="logo" id="logo"></a>
 							   </div>
 			
 							<button type="button" class="btn burger">	
@@ -83,7 +83,7 @@ function changeLang() {
 									<!-- </div> -->
 					
 									<li class="nav-links">
-									<a href="#" class="nested-links"><?= _PRODUCT ?></a>
+									<a href="products.php" class="nested-links"><?= _PRODUCT ?></a>
 									<ul class="nested-nav mt-4">
 										<li>
 											<a href="#" class="nested-links">LALAKU PANTS</a>
@@ -128,19 +128,19 @@ function changeLang() {
 				<div class="wd-1020">
 					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
 				</div>
-				<div class="row mt-90">
+				<div class="row main-content-button">
 					<div class="col-12 col-md-6 text-md-right text-center">
-						<button type="button" class="col-5 btn btn-black btn-lg px-5 textColor-left"><a href="#">
+						<button type="button" class="col-md-5 col-7 btn btn-black px-5 textColor-left"><a href="contact.php">
 							<?= _CONTACT ?>
 						</a></button>
 					</div>
 					<div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-						<button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="products.php#firstPage">
+						<button type="button" class="col-md-5 col-7 btn btn-white px-5 textColor-right"><a href="products.php#firstPage">
 							<?= _LEARN_MORE ?>
 						</a></button>
 					</div>
 				</div>
-				<div class="text-center down pt-5 pl-4">
+				<div class="text-center down pt-md-4 pt-2">
 				<a href="#secondPage">	
 				   <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
 				</a>
@@ -161,12 +161,12 @@ function changeLang() {
 	</div>
 		<div class="row mt-90">
 		 <div class="col-12 col-md-6 text-md-right text-center">
-			 <button type="button" class="col-5 btn btn-black btn-lg px-5 textColor-left"><a href="#">
+			 <button type="button" class="col-md-5 col-7 btn btn-black px-5 textColor-left"><a href="contact.php">
 				 <?= _CONTACT ?>
 			 </a></button>
 		 </div>
 		 <div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="products.php#secondPage">
+			 <button type="button" class="col-md-5 col-7 btn btn-white px-5 textColor-right"><a href="products.php#secondPage">
 				 <?= _LEARN_MORE ?>
 			 </a></button>
 		 </div>
@@ -174,7 +174,7 @@ function changeLang() {
 			 <span class="arrow-down"></span>
 		 </div>
 	 </div>
-	 <div class="text-center pl-2">
+	 <div class="text-center">
 	 <a href="#thirdPage">	
 		<img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
 	</a>
@@ -193,17 +193,17 @@ function changeLang() {
 	</div>
 		<div class="row mt-90">
 		 <div class="col-12 col-md-6 text-md-right text-center">
-			 <button type="button" class="col-5 btn btn-black btn-lg px-5 textColor-left"><a href="#">
+			 <button type="button" class="col-md-5 col-7 btn btn-black px-5 textColor-left"><a href="contact.php">
 				 <?= _CONTACT ?>
 			 </a></button>
 		 </div>
 		 <div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="products.php#thirdtPage">
+			 <button type="button" class="col-md-5 col-7 btn btn-white px-5 textColor-right"><a href="products.php#thirdtPage">
 				 <?= _LEARN_MORE ?>
 			 </a></button>
 		 </div>
 	 </div>
-	 <div class="text-center pt-4 pl-2">
+	 <div class="text-center pt-2 pt-md-4">
 	 <a href="#forthPage">	
 		<img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
     </a>
@@ -222,17 +222,17 @@ function changeLang() {
 	</div>
 		<div class="row mt-90">
 		 <div class="col-12 col-md-6 text-md-right text-center">
-			 <button type="button" class="col-5 btn btn-black btn-lg px-5 textColor-left"><a href="#">
+			 <button type="button" class="col-md-5 col-7 btn btn-black px-5 textColor-left"><a href="contact.php">
 				 <?= _CONTACT ?>
 			 </a></button>
 		 </div>
 		 <div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="products.php#forthPage">
+			 <button type="button" class="col-md-5 col-7 btn btn-white px-5 textColor-right"><a href="products.php#forthPage">
 				 <?= _LEARN_MORE ?>
 			 </a></button>
 		 </div>
 	 </div>
-	 <div class="text-center pt-4 pl-2">
+	 <div class="text-center pt-md-4 pt-2">
 	 <a href="#fifthPage">	
 		<img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
 	</a>
@@ -251,17 +251,17 @@ function changeLang() {
 	</div>
 		<div class="row mt-90">
 		 <div class="col-12 col-md-6 text-md-right text-center">
-			 <button type="button" class="col-5 btn btn-black btn-lg px-5 textColor-left"><a href="#">
+			 <button type="button" class="col-md-5 col-7 btn btn-black px-5 textColor-left"><a href="contact.php">
 				 <?= _CONTACT ?>
 			 </a></button>
 		 </div>
 		 <div class="col-12 col-md-6 pt-4 pt-md-0 text-md-left text-center">
-			 <button type="button" class="col-5 btn btn-white btn-lg px-5 textColor-right"><a href="products.php#fifthPage">
+			 <button type="button" class="col-md-5 col-7 btn btn-white px-5 textColor-right"><a href="products.php#fifthPage">
 				 <?= _LEARN_MORE ?>
 			 </a></button>
 		 </div>
 	 </div>
-	 <div class="text-center pt-4 pl-2">
+	 <div class="text-center pt-md-4 pt-2">
 	 <a href="#sixthPage">	
 		<img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
      </a>
