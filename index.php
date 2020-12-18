@@ -128,7 +128,7 @@ function changeLang() {
 				<div class="wd-1020">
 					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
 				</div>
-				<div class="row main-content-button pt-5">
+				<div class="row main-content-button pt-md-5">
 					<div class="col-12 col-md-6 text-md-right text-center">
 						<button type="button" class="col-md-5 col-7 btn btn-black px-5 textColor-left"><a href="contact.php">
 							<?= _CONTACT ?>
