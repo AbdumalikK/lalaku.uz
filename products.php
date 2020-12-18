@@ -86,22 +86,22 @@ function changeLang() {
                                         <a href="index.php"><?= _HOME ?></a>
                                     </li>
 									<li class="nav-links">
-									<a href="contact.php" class="nested-links"><?= _PRODUCT ?></a>
+									<a href="products.php" class="nested-links"><?= _PRODUCT ?></a>
 									<ul class="nested-nav mt-4">
 										<li>
-											<a href="contact.php" class="nested-links">LALAKU PANTS</a>
+											<a href="products.php#firstPage" class="nested-links">LALAKU PANTS</a>
 										</li>
 										<li>
-											<a href="contact.php" class="nested-links">LALAKU DIAPERS</a>
+											<a href="products.php#secondPage" class="nested-links">LALAKU DIAPERS</a>
 										</li>
 										<li>
-											<a href="contact.php" class="nested-links">LALAKU MAMA POSTPARTUM PADS</a>
+											<a href="products.php#thirdPage" class="nested-links">LALAKU MAMA POSTPARTUM PADS</a>
 										</li>
 										<li>
-											<a href="contact.php" class="nested-links">LALAKU MAMA SANITARY NAOKINS</a>
+											<a href="products.php#forthPage" class="nested-links">LALAKU MAMA SANITARY NAOKINS</a>
 										</li>
 										<li>
-											<a href="contact.php" class="nested-links">LALAKU KN 95 MASKS</a>
+											<a href="products.php#fifthPage" class="nested-links">LALAKU KN 95 MASKS</a>
 										</li>
 									</ul>
 									</li>
@@ -139,25 +139,98 @@ function changeLang() {
            <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
         </a>
         </div>
-
+<div class="container-fluid">
 		<div class="row">
 			<div class="col-12 pt-120 text-center z-index title">
-                <div class="row">
+                <div class="row align-items-end">
                     <div class="col-6">
                         <div class="description-content">
-                            <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus et explicabo minima voluptatum consequuntur voluptate iste sed. Quos, cum ab debitis est iure sunt aspernatur commodi fugiat, labore, voluptatibus voluptatum. consetetur sadipscing elitr. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <h1 class="text-bold pt-0 d-flex justify-content-end">LALAKU PANTS</h1>
+                            <p>Baby diapers "LALAKU" panties are specially created from natural materials using advanced technologies to provide maximum comfort for Your child. Baby diapers "LALAKU" contain: a special top layer with the addition of aloe Vera lotion; special materials that provide "breathing" of the delicate skin of the baby; specially absorbing system that perfectly distributes the liquid inside and protects against leakage up to 10 hours. Baby diapers "LALAKU" will provide reliable protection for Your baby!</p>
                         </div>
                         
                     </div>
                     <div class="col-6">
-                        <h1 class="text-bold pt-0">LALAKU PANTS</h1>
+                        <div class="col-7 my-0 mx-auto">
+                            <table class="table table-condensed">
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">3</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">54</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th>
+                                        <h6 class="d-inline-block item-size">MIDI</h6>
+                                    </th>
+                                    <th>
+                                        <p class="d-inline-block item-size">4-9 KG</p>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">4</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">46</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th>
+                                        <h6 class="d-inline-block item-size">MAXI</h6>
+                                    </th>
+                                    <th>
+                                        <p class="d-inline-block item-size">7-18 KG</p>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">5</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">40</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th>
+                                        <h6 class="d-inline-block item-size">JUNIOR</h6>
+                                    </th>
+                                    <th>
+                                        <p class="d-inline-block item-size">11-25 KG</p>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">6</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">36</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th>
+                                        <h6 class="d-inline-block item-size">EXTRA LARGE</h6>
+                                    </th>
+                                    <th>
+                                        <p class="d-inline-block item-size">16+ KG</p>
+                                    </th>
+                                </tr>
+                            </table>
+
+                        </div>
                     </div>
                 </div>
                 
 			</div>
 		</div>
 		<!-- end main text -->
-	</div>
+</div>
+    </div>
 <!-- section 1 -->
 <section class="sct1 section">
         <div class="row product-contact-top">
@@ -174,24 +247,65 @@ function changeLang() {
            <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
         </a>
         </div>
-
-		<div class="row">
+<div class="container-fluid">
+<div class="row">
 			<div class="col-12 pt-120 text-center z-index title">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="description-content">
-                            <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus et explicabo minima voluptatum consequuntur voluptate iste sed. Quos, cum ab debitis est iure sunt aspernatur commodi fugiat, labore, voluptatibus voluptatum. consetetur sadipscing elitr. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        </div>
-                        
-                    </div>
-                    <div class="col-6">
-                        <h1 class="text-bold pt-0">LALAKU DIAPERS</h1>
-                    </div>
-                </div>
-                
-			</div>
-		</div>
 
+                <div class="row align-items-end">
+                    
+                    <div class="col-6">
+                        <div class="col-7 my-0 mb-4 mx-auto">
+                            <table class="table table-condensed">
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">1</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">86</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th>
+                                        <h6 class="d-inline-block item-size">NEW BORN</h6>
+                                    </th>
+                                    <th>
+                                        <p class="d-inline-block item-size">2-5 KG</p>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">2</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">82</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th>
+                                        <h6 class="d-inline-block item-size">MINI</h6>
+                                    </th>
+                                    <th>
+                                        <p class="d-inline-block item-size">3-6 KG</p>
+                                    </th>
+                                </tr>
+                                
+                            </table>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="description-content spec-item-left">
+                            <h1 class="text-bold pt-0 d-flex justify-content-start pl-4">LALAKU DIAPERS</h1>
+                            <p>Baby diapers "LALAKU" are specially created from natural materials using advanced technologies to provide maximum comfort for Your child. Baby diapers "LALAKU" contain: a special top layer with the addition of aloe Vera lotion; special materials that provide "breathing" of the delicate skin of the baby; specially absorbing system that perfectly distributes the liquid inside and protects against leakage up to 10 hours. Baby diapers "LALAKU" will provide reliable protection for Your baby!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+</div>
+</div>
 </section>
 
 <!-- section 5 col-md-2 -->
@@ -210,23 +324,42 @@ function changeLang() {
            <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
         </a>
         </div>
-
-		<div class="row">
+<div class="container-fluid">
+<div class="row">
 			<div class="col-12 pt-120 text-center z-index title">
-                <div class="row">
+                <div class="row align-items-end">
                     <div class="col-6">
-                        <div class="description-content">
-                            <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus et explicabo minima voluptatum consequuntur voluptate iste sed. Quos, cum ab debitis est iure sunt aspernatur commodi fugiat, labore, voluptatibus voluptatum. consetetur sadipscing elitr. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="description-content mr-top-265">
+                            <h1 class="text-bold pt-0 d-flex justify-content-end">LALAKU MAMA
+POSTPARTUM PADS</h1>
+                            <p>Feminine hygienic postpartum absorbent pads. Composition: fluff pulp, nonwoven fabric, breathable 
+outer layer.
+
+Expire date: 3 years from the date manufacture 
+specified on packing.</p>
                         </div>
                         
                     </div>
-                    <div class="col-6">
-                        <h1 class="text-bold pt-0">LALAKU MAMA POSTPARTUM PADS</h1>
+                    <div class="col-6 mb-5">
+                        <div class="col-2 my-0 mx-auto">
+                            <table class="table table-condensed">
+                                <tr>
+                                    <th class="border-bottom-pcs">
+                                        <h2 class="d-inline-block item-number mb-0">10</h2>
+                                        <p class="d-inline-block line-h mb-0">pcs</p>
+                                    </th>
+                                </tr>
+                            </table>
+
+                        </div>
                     </div>
                 </div>
                 
 			</div>
-		</div>
+        </div>
+        
+        </div>
+
 </section>
 
 <!-- section 3 -->
@@ -245,23 +378,45 @@ function changeLang() {
            <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
         </a>
         </div>
-
-		<div class="row">
+<div class="container-fluid">
+<div class="row">
 			<div class="col-12 pt-120 text-center z-index title">
-                <div class="row">
+
+                <div class="row align-items-end">
+                    
                     <div class="col-6">
-                        <div class="description-content">
-                            <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus et explicabo minima voluptatum consequuntur voluptate iste sed. Quos, cum ab debitis est iure sunt aspernatur commodi fugiat, labore, voluptatibus voluptatum. consetetur sadipscing elitr. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="col-5 justify-content-start scr3-item-pcs">
+                            <table class="table table-condensed">
+                                <tr class="border-bottom-pcs">
+                                    <th>
+                                        <h6 class="d-inline-block item-size mb-0">CLASSIC</h6>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number mb-0">10</h2>
+                                        <p class="d-inline-block line-h mb-0">pcs</p>
+                                    </th>
+                                </tr>
+                            </table>
+                            
                         </div>
-                        
                     </div>
+
                     <div class="col-6">
-                        <h1 class="text-bold pt-0">LALAKU MAMA SANITARY NAPKINS</h1>
+                        <div class="description-content spec-item-left mr-top-265">
+                            <h1 class="text-bold pt-0 d-flex justify-content-start pl-4">LALAKU MAMA
+SANITARY NAPKINS</h1>
+                            <p>Feminine hygienic postpartum absorbent pads. Composition: fluff pulp, nonwoven fabric, breathable 
+outer layer.</p>
+                         <p>
+                        Expire date: 3 years from the date manufacture 
+                        specified on packing.</p>
+                        </div>
                     </div>
+
                 </div>
-                
-			</div>
-		</div>
+            </div>
+</div>
+</div>
 </section>
 
 <!-- section 4 -->
@@ -280,23 +435,82 @@ function changeLang() {
            <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
         </a>
         </div>
-
-		<div class="row">
+<div class="container-fluid">
+<div class="row">
 			<div class="col-12 pt-120 text-center z-index title">
-                <div class="row">
+                <div class="row align-items-end">
                     <div class="col-6">
                         <div class="description-content">
-                            <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus et explicabo minima voluptatum consequuntur voluptate iste sed. Quos, cum ab debitis est iure sunt aspernatur commodi fugiat, labore, voluptatibus voluptatum. consetetur sadipscing elitr. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <h1 class="text-bold pt-0 d-flex justify-content-end mr-5">LALAKU PANTS</h1>
+                            <p class="mr-4">
+                            KN95 filter masks (non-sterile respirators) have good air permeability property, without restricting breathing, 
+the nasal retainer provides a better fit considering individual features of the shape of the nose, designed for use in personal hygiene and as a means of protection against dust and odors, etc. Composition: Non-woven 
+hypoallergenic polypropylene with an additional filtering layer, type of fixative: elastic band (ear loop), store 
+at + 15 ° С  + 25 ° С in a dry place protected 
+from direct sunlight. 
+</p>
+<p>
+Expire date : 5 years.
+                            </p>
                         </div>
                         
                     </div>
                     <div class="col-6">
-                        <h1 class="text-bold pt-0">LALAKU KN 95 MASKS</h1>
+                        <div class="col-6 my-0 mx-auto mask-spec-right">
+                            <table class="table table-condensed">
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">4</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">2</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th class="pb-0">
+                                        <h6 class="d-inline-block item-size mb-0 text-height-0">WITH VALVE</h6>
+                                        <h6 class="item-mask-spec mb-0 text-height-0">WITHOUT VALVE</h6>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">5</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">2</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th class="pb-0">
+                                        <h6 class="d-inline-block item-size mb-0 text-height-0">WITH VALVE</h6>
+                                        <h6 class="item-mask-spec mb-0 text-height-0">WITHOUT VALVE</h6>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">6</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">2</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th class="pb-0">
+                                        <h6 class="d-inline-block item-size mb-0 text-height-0">WITH VALVE</h6>
+                                        <h6 class="item-mask-spec mb-0 text-height-0">WITHOUT VALVE</h6>
+                                    </th>
+                                </tr>
+                            </table>
+
+                        </div>
                     </div>
                 </div>
                 
 			</div>
 		</div>
+</div>
 </section>
 
 <!-- section 5 -->

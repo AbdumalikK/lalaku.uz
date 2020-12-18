@@ -86,19 +86,19 @@ function changeLang() {
 									<a href="products.php" class="nested-links"><?= _PRODUCT ?></a>
 									<ul class="nested-nav mt-4">
 										<li>
-											<a href="#" class="nested-links">LALAKU PANTS</a>
+											<a href="products.php#firstPage" class="nested-links">LALAKU PANTS</a>
 										</li>
 										<li>
-											<a href="#" class="nested-links">LALAKU DIAPERS</a>
+											<a href="products.php#secondPage" class="nested-links">LALAKU DIAPERS</a>
 										</li>
 										<li>
-											<a href="#" class="nested-links">LALAKU MAMA POSTPARTUM PADS</a>
+											<a href="products.php#thirdPage" class="nested-links">LALAKU MAMA POSTPARTUM PADS</a>
 										</li>
 										<li>
-											<a href="#" class="nested-links">LALAKU MAMA SANITARY NAOKINS</a>
+											<a href="products.php#forthPage" class="nested-links">LALAKU MAMA SANITARY NAOKINS</a>
 										</li>
 										<li>
-											<a href="#" class="nested-links">LALAKU KN 95 MASKS</a>
+											<a href="products.php#fifthPage" class="nested-links">LALAKU KN 95 MASKS</a>
 										</li>
 									</ul>
 									</li>
@@ -282,7 +282,7 @@ function changeLang() {
 		
 		</div>
 		<div class="text-center pt-5">
-		<a href="#sixthPage">	
+		<a href="#firstPage">	
 			<img class="arrow-up animate-arrow" src="style/icons/arrow-up.svg" alt="up">
 		</a>
 		</div>
