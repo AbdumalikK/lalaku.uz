@@ -105,9 +105,9 @@ function changeLang() {
 									<li class="nav-links">
 									<a href="contact.php" class="nested-links"><?= _CONTACT ?></a>
 									</li>
-									<li class="nav-links">
+									<!-- <li class="nav-links">
 									<a href="#" class="nested-links"><?= _ABOUT ?></a>
-									</li>
+									</li> -->
 								</ul>
 				   <!-- end burger menu -->
 
