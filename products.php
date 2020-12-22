@@ -14,6 +14,7 @@ include_once "core/lang.php";
 	<link rel="stylesheet" href="style/bootstrap4/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/css/products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="style/bootstrap4/js/bootstrap.min.js"></script>
@@ -168,16 +169,16 @@ function changeLang() {
 </div>
 
         <!-- main text -->
-        <div class="row product-contact-top">
+        <div class="row product-contact-top-first">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
                 <?= _CONTACT ?>
                 </button>
                 </a>
             </div>
         </div>
-        <div class="text-center down pt-3">
+        <div class="text-center down">
         <a href="#secondPage">	
            <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
         </a>
@@ -391,12 +392,14 @@ function changeLang() {
 		<!-- end main text -->
 </div>
     </section>
+
+
 <!-- section 1 -->
 <section class="sct1 section">
         <div class="row product-contact-top">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
                 <?= _CONTACT ?>
                 </button>
                 </a>
@@ -468,12 +471,98 @@ function changeLang() {
 </div>
 </section>
 
-<!-- section 5 col-md-2 -->
+
+
+<!-- section 1 mobile -->
+<section class="section sct-mobile" id="section-mobile">
+
+
+  <!-- main text -->
+  <!-- <div class="row product-contact-top">
+            <div class="col-12 col-md-12 text-center">
+                <a href="contact.php">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                <?//= _CONTACT ?>
+                </button>
+                </a>
+            </div>
+        </div>
+        <div class="text-center down pt-3">
+        <a href="#secondPage">	
+           <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
+        </a>
+        </div> -->
+
+<div class="container">
+<div class="row">
+			<div class="col-12 text-center">
+
+                <div class="row align-items-end px-4">
+                    
+                    <div class="col-lg-6 col-12">
+                        <!-- <div class="spec-item-left"> -->
+                            <h1 class="text-bold pt-0">LALAKU DIAPERS</h1>
+                            <p>Baby diapers "LALAKU" are specially created from natural materials using advanced technologies to provide maximum comfort for Your child. Baby diapers "LALAKU" contain: a special top layer with the addition of aloe Vera lotion; special materials that provide "breathing" of the delicate skin of the baby; specially absorbing system that perfectly distributes the liquid inside and protects against leakage up to 10 hours. Baby diapers "LALAKU" will provide reliable protection for Your baby!</p>
+                        <!-- </div> -->
+                    </div>
+
+                    <div class="col-lg-6 col-12 mt-5">
+                            <table class="table table-condensed">
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">1</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">86</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th>
+                                        <h6 class="d-inline-block item-size">NEW BORN</h6>
+                                    </th>
+                                    <th>
+                                        <p class="d-inline-block item-size">2-5 KG</p>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">2</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">82</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th>
+                                        <h6 class="d-inline-block item-size">MINI</h6>
+                                    </th>
+                                    <th>
+                                        <p class="d-inline-block item-size">3-6 KG</p>
+                                    </th>
+                                </tr>
+                                
+                            </table>
+                            
+                    </div>
+
+
+                </div>
+            </div>
+</div>
+		<!-- end main text -->
+</div>
+    </section>
+
+
+
+
+<!-- section 2 -->
 <section class="sct2 section">
 <div class="row product-contact-top">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
                 <?= _CONTACT ?>
                 </button>
                 </a>
@@ -522,12 +611,81 @@ specified on packing.</p>
 
 </section>
 
+
+
+<!-- section 2 mobile -->
+<section class="section sct-mobile" id="section-mobile">
+  <!-- main text -->
+  <!-- <div class="row product-contact-top">
+            <div class="col-12 col-md-12 text-center">
+                <a href="contact.php">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                <?//= _CONTACT ?>
+                </button>
+                </a>
+            </div>
+        </div>
+        <div class="text-center down pt-3">
+        <a href="#secondPage">	
+           <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
+        </a>
+        </div> -->
+
+<div class="container">
+<div class="row">
+			<div class="col-12 text-center">
+
+                <div class="row align-items-end px-4">
+                    
+                    <div class="col-lg-6 col-12">
+                    <h1 class="text-bold pt-0 d-flex justify-content-end">LALAKU MAMA
+POSTPARTUM PADS</h1>
+                            <p>Feminine hygienic postpartum absorbent pads. Composition: fluff pulp, nonwoven fabric, breathable 
+outer layer.
+
+Expire date: 3 years from the date manufacture 
+specified on packing.</p>
+                    </div>
+
+                    <div class="col-lg-6 col-12 mt-5">
+                            <table class="table table-condensed">
+                                <tr>
+                                    <th class="border-bottom-pcs">
+                                        <h2 class="d-inline-block item-number mb-0">10</h2>
+                                        <p class="d-inline-block line-h mb-0">pcs</p>
+                                    </th>
+                                </tr>
+                                
+                            </table>
+                            
+                    </div>
+
+
+                </div>
+            </div>
+</div>
+		<!-- end main text -->
+</div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- section 3 -->
 <section class="sct3 section">
 <div class="row product-contact-top">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
                 <?= _CONTACT ?>
                 </button>
                 </a>
@@ -579,12 +737,77 @@ outer layer.</p>
 </div>
 </section>
 
+
+
+<!-- section 3 mobile -->
+<section class="section sct-mobile" id="section-mobile">
+  <!-- main text -->
+  <!-- <div class="row product-contact-top">
+            <div class="col-12 col-md-12 text-center">
+                <a href="contact.php">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                <?//= _CONTACT ?>
+                </button>
+                </a>
+            </div>
+        </div>
+        <div class="text-center down pt-3">
+        <a href="#secondPage">	
+           <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
+        </a>
+        </div> -->
+
+<div class="container">
+<div class="row">
+			<div class="col-12 text-center">
+
+                <div class="row align-items-end px-4">
+                    
+                    <div class="col-lg-6 col-12">
+                    <h1 class="text-bold pt-0 d-flex justify-content-start pl-4">LALAKU MAMA
+SANITARY NAPKINS</h1>
+                            <p>Feminine hygienic postpartum absorbent pads. Composition: fluff pulp, nonwoven fabric, breathable 
+outer layer.</p>
+                         <p>
+                        Expire date: 3 years from the date manufacture 
+                        specified on packing.</p>
+                    </div>
+
+                    <div class="col-lg-6 col-12 mt-5">
+                            <table class="table table-condensed">
+                                <tr class="border-bottom-pcs">
+                                    <th>
+                                        <h6 class="d-inline-block item-size mb-0">CLASSIC</h6>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number mb-0">10</h2>
+                                        <p class="d-inline-block line-h mb-0">pcs</p>
+                                    </th>
+                                </tr>
+                                
+                            </table>
+                            
+                    </div>
+
+
+                </div>
+            </div>
+</div>
+		<!-- end main text -->
+</div>
+    </section>
+
+
+
+
+
+
 <!-- section 4 -->
 <section class="sct4 section">
 <div class="row product-contact-top">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
                 <?= _CONTACT ?>
                 </button>
                 </a>
@@ -673,53 +896,159 @@ Expire date : 5 years.
 </div>
 </section>
 
-<!-- section 5 -->
-<section class="sct5 section">
-<div class="row product-contact-top">
-    
-    <div class="text-center down pt-3">
-    <!-- <a href="#firstPage">	
-       <img class="arrow-down animate-arrow" src="style/icons/arrow-top.svg" alt="down">
-    </a> -->
-    </div>
 
+
+
+
+
+<!-- section 4 mobile -->
+<section class="section sct-mobile" id="section-mobile">
+  <!-- main text -->
+  <!-- <div class="row product-contact-top">
+            <div class="col-12 col-md-12 text-center">
+                <a href="contact.php">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                <?//= _CONTACT ?>
+                </button>
+                </a>
+            </div>
         </div>
+        <div class="text-center down pt-3">
+        <a href="#secondPage">	
+           <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
+        </a>
+        </div> -->
 
-		<div class="row">
-			<div class="col-12 pt-120 text-center z-index title">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="description-content">
-                            <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus et explicabo minima voluptatum consequuntur voluptate iste sed. Quos, cum ab debitis est iure sunt aspernatur commodi fugiat, labore, voluptatibus voluptatum. consetetur sadipscing elitr. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        </div>
-                        
+<div class="container">
+<div class="row">
+			<div class="col-12 text-center">
+
+                <div class="row align-items-end px-4">
+                    
+                    <div class="col-lg-6 col-12">
+                    <h1 class="text-bold pt-0 mr-5">LALAKU PANTS</h1>
+                            <p class="mr-4">
+                            KN95 filter masks (non-sterile respirators) have good air permeability property, without restricting breathing, 
+the nasal retainer provides a better fit considering individual features of the shape of the nose, designed for use in personal hygiene and as a means of protection against dust and odors, etc. Composition: Non-woven 
+hypoallergenic polypropylene with an additional filtering layer, type of fixative: elastic band (ear loop), store 
+at + 15 ° С  + 25 ° С in a dry place protected 
+from direct sunlight. 
+</p>
+<p>
+Expire date : 5 years.
+                            </p>
                     </div>
-                    <div class="col-6">
-                        <h1 class="text-bold pt-0">LALAKU KN 95 MASKS</h1>
+
+                    <div class="col-lg-6 col-12 mt-5">
+                            <table class="table table-condensed">
+                                <tr class="border-bottom-pcs">
+                                <th>
+                                        <h2 class="d-inline-block item-number">4</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">2</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th class="pb-0">
+                                        <h6 class="d-inline-block item-size mb-0 text-height-0">WITH VALVE</h6>
+                                        <h6 class="item-mask-spec mb-0 text-height-0">WITHOUT VALVE</h6>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">5</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">2</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th class="pb-0">
+                                        <h6 class="d-inline-block item-size mb-0 text-height-0">WITH VALVE</h6>
+                                        <h6 class="item-mask-spec mb-0 text-height-0">WITHOUT VALVE</h6>
+                                    </th>
+                                </tr>
+    
+                                <tr>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">6</h2>
+                                        <p class="d-inline-block line-h">size</p>
+                                    </th>
+                                    <th>
+                                        <h2 class="d-inline-block item-number">2</h2>
+                                        <p class="d-inline-block line-h">pcs</p>
+                                    </th>
+                                    <th class="pb-0">
+                                        <h6 class="d-inline-block item-size mb-0 text-height-0">WITH VALVE</h6>
+                                        <h6 class="item-mask-spec mb-0 text-height-0">WITHOUT VALVE</h6>
+                                    </th>
+                                </tr>
+                                
+                            </table>
+                            
                     </div>
+
+
                 </div>
-                
-			</div>
-		</div>
+            </div>
+</div>
+		<!-- end main text -->
+</div>
+    </section>
 
 
 
-	<div class="row">
-		<div class="col-12 text-center">
-			<h1 class="text-bold pt-120">SOF HYGIENIC</h1>
-			<p class="wd-1020 p-3">
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-			</p>
-		</div>
-	</div>
-		<div class="row mt-footer footer">
+
+
+
+<!-- footer -->
+<section class="sct5 section">
+    <h1 class="text-center" style="color: gray;">ООО Sof Gigienik<p class="yellow mt-2">Copyright © 2020</p>
+            <div class="row pt-120">
+                <div class="col-3 text-center">
+                    <a href="https://www.instagram.com/lalaku.uzbekistan/">
+                        <i class="fab fa-instagram social-icon"></i>
+                    </a>
+                </div>
+                <div class="col-3 text-center">
+                    <a href="https://www.facebook.com/lalaku.uzbekistan/">
+                        <i class="fab fa-facebook-f social-icon"></i>
+                    </a>
+                </div>
+                <div class="col-3 text-center">
+                    <a href="https://www.youtube.com/channel/UCCHvBrlmF-gCUR60zFiAexw">
+                        <i class="fab fa-youtube social-icon"></i>
+                    </a>
+                </div>
+                <div class="col-3 text-center">
+                    <a href="">
+                        <i class="fab fa-whatsapp social-icon"></i>
+                    </a>
+                </div>
+            </div>
+</h1>
+<div class="row pt-120">
+    <div class="col-md-6 col-12 d-flex justify-content-center">
+        <a href="https://www.google.com/maps/place/%D0%9E%D1%84%D0%B8%D1%81+%D0%B1%D1%80%D0%B5%D0%BD%D0%B4%D0%B0+%22LALAKU%22,+%D0%9E%D0%9E%D0%9E+%22SOF+GIGIENIK%22/@41.3247619,69.3359945,21z/data=!4m13!1m7!3m6!1s0x38aef457cc74f7e5:0x5142b528b7c5e4d8!2s35+Khirmontepa+2-th+Passage,+Tashkent,+Uzbekistan!3b1!8m2!3d41.3249853!4d69.3360588!3m4!1s0x38aef51bb28be239:0x9e3b62489b4f1490!8m2!3d41.3247974!4d69.3360713">
+        <i class="fas fa-map-marker-alt footer-icon mr-2"></i>
+        <p class="d-inline">Toshkent sh., Mirzo Ulug‘bek tumani, Xirmontepa 2-tor, 48</p>
+        </a>
+    </div>
+    <div class="col-md-6 col-12 mt-4 mt-md-0 mt-lg-0 d-flex justify-content-center">
+        <a href="tel:+998 94 480 00 77">
+            <i class="fas fa-phone-alt footer-icon mr-2"></i>
+            <p class="d-inline">+998 94 480 00 77</p>
+        </a>
+    </div>
+</div>
 		
-		</div>
-		<div class="text-center mb-5">
+		<div class="text-center mt-5">
 		<a href="#firstPage">	
 			<img class="arrow-up animate-arrow" src="style/icons/arrow-up.svg" alt="up">
-		</a>
-		</div>
+        </a>
+        </div>
 </section>
 
 
