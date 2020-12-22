@@ -172,13 +172,13 @@ function changeLang() {
         <div class="row product-contact-top-first">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
                 <?= _CONTACT ?>
                 </button>
                 </a>
             </div>
         </div>
-        <div class="text-center down pt-3">
+        <div class="text-center down">
         <a href="#secondPage">	
            <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
         </a>
@@ -399,7 +399,7 @@ function changeLang() {
         <div class="row product-contact-top">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
                 <?= _CONTACT ?>
                 </button>
                 </a>
@@ -562,7 +562,7 @@ function changeLang() {
 <div class="row product-contact-top">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
                 <?= _CONTACT ?>
                 </button>
                 </a>
@@ -685,7 +685,7 @@ specified on packing.</p>
 <div class="row product-contact-top">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
                 <?= _CONTACT ?>
                 </button>
                 </a>
@@ -807,7 +807,7 @@ outer layer.</p>
 <div class="row product-contact-top">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
+                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
                 <?= _CONTACT ?>
                 </button>
                 </a>
@@ -926,7 +926,7 @@ Expire date : 5 years.
                 <div class="row align-items-end px-4">
                     
                     <div class="col-lg-6 col-12">
-                    <h1 class="text-bold pt-0 d-flex justify-content-end mr-5">LALAKU PANTS</h1>
+                    <h1 class="text-bold pt-0 mr-5">LALAKU PANTS</h1>
                             <p class="mr-4">
                             KN95 filter masks (non-sterile respirators) have good air permeability property, without restricting breathing, 
 the nasal retainer provides a better fit considering individual features of the shape of the nose, designed for use in personal hygiene and as a means of protection against dust and odors, etc. Composition: Non-woven 
@@ -1005,30 +1005,46 @@ Expire date : 5 years.
 
 <!-- footer -->
 <section class="sct5 section">
-	<div class="row">
-        <div class="col-4 text-center social-media">
-        <i class="fab fa-instagram social-icon"></i>
-        </div>
-        <div class="col-4 text-center social-media">
-        <i class="fab fa-facebook-f social-icon"></i>
-        </div>
-        <div class="col-4 text-center social-media">
-        <i class="fab fa-youtube social-icon"></i>
-        </div>
-    </div>
-        
-<div class="row">
+    <h1 class="text-center" style="color: gray;">ООО Sof Gigienik<p class="yellow mt-2">Copyright © 2020</p>
+            <div class="row pt-120">
+                <div class="col-3 text-center">
+                    <a href="https://www.instagram.com/lalaku.uzbekistan/">
+                        <i class="fab fa-instagram social-icon"></i>
+                    </a>
+                </div>
+                <div class="col-3 text-center">
+                    <a href="https://www.facebook.com/lalaku.uzbekistan/">
+                        <i class="fab fa-facebook-f social-icon"></i>
+                    </a>
+                </div>
+                <div class="col-3 text-center">
+                    <a href="https://www.youtube.com/channel/UCCHvBrlmF-gCUR60zFiAexw">
+                        <i class="fab fa-youtube social-icon"></i>
+                    </a>
+                </div>
+                <div class="col-3 text-center">
+                    <a href="">
+                        <i class="fab fa-whatsapp social-icon"></i>
+                    </a>
+                </div>
+            </div>
+</h1>
+<div class="row pt-120">
     <div class="col-md-6 col-12 d-flex justify-content-center">
+        <a href="https://www.google.com/maps/place/%D0%9E%D1%84%D0%B8%D1%81+%D0%B1%D1%80%D0%B5%D0%BD%D0%B4%D0%B0+%22LALAKU%22,+%D0%9E%D0%9E%D0%9E+%22SOF+GIGIENIK%22/@41.3247619,69.3359945,21z/data=!4m13!1m7!3m6!1s0x38aef457cc74f7e5:0x5142b528b7c5e4d8!2s35+Khirmontepa+2-th+Passage,+Tashkent,+Uzbekistan!3b1!8m2!3d41.3249853!4d69.3360588!3m4!1s0x38aef51bb28be239:0x9e3b62489b4f1490!8m2!3d41.3247974!4d69.3360713">
         <i class="fas fa-map-marker-alt footer-icon mr-2"></i>
-        <p>Toshkent sh., Mirzo Ulug‘bek tumani, Xirmontepa 2-tor, 48</p>
+        <p class="d-inline">Toshkent sh., Mirzo Ulug‘bek tumani, Xirmontepa 2-tor, 48</p>
+        </a>
     </div>
     <div class="col-md-6 col-12 mt-4 mt-md-0 mt-lg-0 d-flex justify-content-center">
-        <i class="fas fa-phone-alt footer-icon mr-2"></i>
-        <p>+998 94 480 00 77</p>
+        <a href="tel:+998 94 480 00 77">
+            <i class="fas fa-phone-alt footer-icon mr-2"></i>
+            <p class="d-inline">+998 94 480 00 77</p>
+        </a>
     </div>
 </div>
 		
-		<div class="text-center">
+		<div class="text-center mt-5">
 		<a href="#firstPage">	
 			<img class="arrow-up animate-arrow" src="style/icons/arrow-up.svg" alt="up">
         </a>
