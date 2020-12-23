@@ -2,22 +2,27 @@ $(document).ready(function() {
     // Check width on page load
     if ( $(window).width() < 991) {
         $('.container-fluid').hide();
-        $('#section-mobile').show();
+        jQuery('[id=section-mobile]').show();
+        jQuery('[id=section-mobile]').addClass('section fp-section fp-table').css('height', '940px'); 
     } else {
         $('.container-fluid').show();
-        $('#section-mobile').hide();
+        jQuery('[id=section-mobile]').hide();
+        jQuery('[id=section-mobile]').removeClass('section fp-section fp-table'); 
     }
 
     $(window).resize(function() {
         // if the browser resized, check with again
         if ( $(window).width() < 991) {
             $('.container-fluid').hide();
-            $('#section-mobile').show();
+            jQuery('[id=section-mobile]').show();
+            jQuery('[id=section-mobile]').addClass('section fp-section fp-table').css('height', '940px'); 
         } else {
             $('.container-fluid').show();
-            $('#section-mobile').hide();
+            jQuery('[id=section-mobile]').hide();
+            jQuery('[id=section-mobile]').removeClass('section fp-section fp-table'); 
         }
     });
+
 });
 
 // setInterval(ajaxCall, 3000);

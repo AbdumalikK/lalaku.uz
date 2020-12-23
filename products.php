@@ -22,9 +22,10 @@ include_once "core/lang.php";
 	<link rel="stylesheet" href="style/css/fullpage.css">
 	<script src="style/js/easings.min.js"></script>
 	<script src="style/js/scrolloverflow.min.js"></script>
-	<script src="style/js/fullpage.js"></script>
+    <script src="style/js/fullpage.js"></script>
+    <script src="style/js/mobile-product.js"></script>
 </head>
-<body>
+<body class="">
 <style>
   /* Make the image fully responsive */
   .carousel-inner img {
@@ -62,9 +63,8 @@ function changeLang() {
 
 
 <!-- whole page container -->
-	<div id="fullpage">
+<div id="fullpage">
     <div class="container px-0">
-		<header>
 			<div class="row">
 				<div class="col-6">
 					<!-- navbar -->
@@ -121,68 +121,52 @@ function changeLang() {
 									</li> -->
 								</ul>
 				   <!-- end burger menu -->
-
 				</div>
-				
 			</div>
-			
-			
-		</div>
-	</header>
+        </div>
+        
 	<div id="menu-shadow" class="">
-	<!-- section 0 -->
-	<div class="sct0 section bg-white">
 
-<div class="item-carousel">
 
-<div id="demo" class="carousel slide" data-ride="carousel">
-
-  <!-- Indicators -->
-  <!-- <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul> -->
-  
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="style/images/products/product-1.jpg" alt="Los Angeles">
+<!-- section 0 -->
+<div class="section sct0 bg-white">
+    <!-- carousel images -->
+    <div class="item-carousel">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="style/images/products/product-1-png.png" alt="Los Angeles">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-2-png.png" alt="Chicago">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-3-png.png">
+                </div>
+            </div>
+            
+        </div>
     </div>
-    <div class="carousel-item">
-      <img src="style/images/products/product-2.jpg" alt="Chicago">
+    <div class="row product-contact-top-first">
+        <div class="col-12 col-md-12 text-center">
+            <a href="contact.php">
+                <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
+            <?= _CONTACT ?>
+            </button>
+            </a>
+        </div>
     </div>
-    <div class="carousel-item">
-      <img src="style/images/products/product-3.jpg">
+    
+    <div class="text-center down">
+        <a href="#thirdPage">	
+            <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
+        </a>
     </div>
-  </div>
-  
-  <!-- Left and right controls -->
-  <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a> -->
-</div>
-
-</div>
+<!-- end carousel -->
 
         <!-- main text -->
-        <div class="row product-contact-top-first">
-            <div class="col-12 col-md-12 text-center">
-                <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
-                <?= _CONTACT ?>
-                </button>
-                </a>
-            </div>
-        </div>
-        <div class="text-center down">
-        <a href="#secondPage">	
-           <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
-        </a>
-        </div>
 
 <div class="container-fluid">
 		<div class="row">
@@ -194,8 +178,8 @@ function changeLang() {
                             <h1 class="text-bold pt-0 d-flex justify-content-end">LALAKU PANTS</h1>
                             <p>Baby diapers "LALAKU" panties are specially created from natural materials using advanced technologies to provide maximum comfort for Your child. Baby diapers "LALAKU" contain: a special top layer with the addition of aloe Vera lotion; special materials that provide "breathing" of the delicate skin of the baby; specially absorbing system that perfectly distributes the liquid inside and protects against leakage up to 10 hours. Baby diapers "LALAKU" will provide reliable protection for Your baby!</p>
                         </div>
-                        
                     </div>
+
                     <div class="col-lg-6 col-12">
                         <div class="col-7 my-0 mx-auto">
                             <table class="table table-condensed">
@@ -275,40 +259,20 @@ function changeLang() {
 			</div>
 		</div>
 		<!-- end main text -->
+    </div>
 </div>
 
-</div>
+
 
 <!-- section 0 mobile -->
-<section class="section sct-mobile" id="section-mobile">
-
-
-  <!-- main text -->
-  <!-- <div class="row product-contact-top">
-            <div class="col-12 col-md-12 text-center">
-                <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
-                <?//= _CONTACT ?>
-                </button>
-                </a>
-            </div>
-        </div>
-        <div class="text-center down pt-3">
-        <a href="#secondPage">	
-           <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
-        </a>
-        </div> -->
-
+<div class="" id="section-mobile">
 <div class="container">
 		<div class="row">
 			<div class="col-12 text-center">
-                <div class="row align-items-start px-4">
-
+                <div class="row mt-90 px-4">
                     <div class="col-lg-6 col-12">
-                        <!-- <div class="pt-120"> -->
                             <h1 class="text-bold pt-0">LALAKU PANTS</h1>
                             <p>Baby diapers "LALAKU" panties are specially created from natural materials using advanced technologies to provide maximum comfort for Your child. Baby diapers "LALAKU" contain: a special top layer with the addition of aloe Vera lotion; special materials that provide "breathing" of the delicate skin of the baby; specially absorbing system that perfectly distributes the liquid inside and protects against leakage up to 10 hours. Baby diapers "LALAKU" will provide reliable protection for Your baby!</p>
-                        <!-- </div> -->
                     </div>
 
                     <div class="col-lg-6 col-12 mt-5">
@@ -386,16 +350,15 @@ function changeLang() {
                         </div>
                     </div>
                 </div>
-                
 			</div>
 		</div>
 		<!-- end main text -->
+    </div>
 </div>
-    </section>
 
 
 <!-- section 1 -->
-<section class="sct1 section">
+<div class="sct1 section">
         <div class="row product-contact-top">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
@@ -405,13 +368,15 @@ function changeLang() {
                 </a>
             </div>
         </div>
+
         <div class="text-center down pt-3">
-        <a href="#thirdPage">	
+        <a href="#fifthPage">	
            <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
         </a>
         </div>
+
 <div class="container-fluid">
-<div class="row">
+        <div class="row">
 			<div class="col-12 pt-120 text-center z-index title">
 
                 <div class="row align-items-end">
@@ -467,43 +432,22 @@ function changeLang() {
 
                 </div>
             </div>
+        </div>
 </div>
 </div>
-</section>
 
 
 
 <!-- section 1 mobile -->
-<section class="section sct-mobile" id="section-mobile">
-
-
-  <!-- main text -->
-  <!-- <div class="row product-contact-top">
-            <div class="col-12 col-md-12 text-center">
-                <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
-                <?//= _CONTACT ?>
-                </button>
-                </a>
-            </div>
-        </div>
-        <div class="text-center down pt-3">
-        <a href="#secondPage">	
-           <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
-        </a>
-        </div> -->
+<div class="" id="section-mobile">
 
 <div class="container">
-<div class="row">
+    <div class="row">
 			<div class="col-12 text-center">
-
-                <div class="row align-items-end px-4">
-                    
+                <div class="row mt-90 px-4">
                     <div class="col-lg-6 col-12">
-                        <!-- <div class="spec-item-left"> -->
-                            <h1 class="text-bold pt-0">LALAKU DIAPERS</h1>
-                            <p>Baby diapers "LALAKU" are specially created from natural materials using advanced technologies to provide maximum comfort for Your child. Baby diapers "LALAKU" contain: a special top layer with the addition of aloe Vera lotion; special materials that provide "breathing" of the delicate skin of the baby; specially absorbing system that perfectly distributes the liquid inside and protects against leakage up to 10 hours. Baby diapers "LALAKU" will provide reliable protection for Your baby!</p>
-                        <!-- </div> -->
+                        <h1 class="text-bold pt-0">LALAKU DIAPERS</h1>
+                        <p>Baby diapers "LALAKU" are specially created from natural materials using advanced technologies to provide maximum comfort for Your child. Baby diapers "LALAKU" contain: a special top layer with the addition of aloe Vera lotion; special materials that provide "breathing" of the delicate skin of the baby; specially absorbing system that perfectly distributes the liquid inside and protects against leakage up to 10 hours. Baby diapers "LALAKU" will provide reliable protection for Your baby!</p>
                     </div>
 
                     <div class="col-lg-6 col-12 mt-5">
@@ -541,25 +485,23 @@ function changeLang() {
                                         <p class="d-inline-block item-size">3-6 KG</p>
                                     </th>
                                 </tr>
-                                
                             </table>
-                            
                     </div>
 
 
                 </div>
             </div>
-</div>
+    </div>
 		<!-- end main text -->
 </div>
-    </section>
+</div>
 
 
 
 
 <!-- section 2 -->
-<section class="sct2 section">
-<div class="row product-contact-top">
+<div class="section sct2">
+    <div class="row product-contact-top">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
                     <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
@@ -567,14 +509,15 @@ function changeLang() {
                 </button>
                 </a>
             </div>
-        </div>
+    </div>
         <div class="text-center down pt-3">
-        <a href="#forthPage">	
+        <a href="#seventhPage">	
            <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
         </a>
         </div>
+
 <div class="container-fluid">
-<div class="row">
+    <div class="row">
 			<div class="col-12 pt-120 text-center z-index title">
                 <div class="row align-items-end">
                     <div class="col-6">
@@ -606,37 +549,18 @@ specified on packing.</p>
                 
 			</div>
         </div>
-        
         </div>
-
-</section>
+</div>
 
 
 
 <!-- section 2 mobile -->
-<section class="section sct-mobile" id="section-mobile">
+<div class="" id="section-mobile">
   <!-- main text -->
-  <!-- <div class="row product-contact-top">
-            <div class="col-12 col-md-12 text-center">
-                <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
-                <?//= _CONTACT ?>
-                </button>
-                </a>
-            </div>
-        </div>
-        <div class="text-center down pt-3">
-        <a href="#secondPage">	
-           <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
-        </a>
-        </div> -->
-
 <div class="container">
-<div class="row">
+    <div class="row">
 			<div class="col-12 text-center">
-
-                <div class="row align-items-end px-4">
-                    
+                <div class="row mt-90 px-4">
                     <div class="col-lg-6 col-12">
                     <h1 class="text-bold pt-0 d-flex justify-content-end">LALAKU MAMA
 POSTPARTUM PADS</h1>
@@ -655,34 +579,20 @@ specified on packing.</p>
                                         <p class="d-inline-block line-h mb-0">pcs</p>
                                     </th>
                                 </tr>
-                                
                             </table>
-                            
                     </div>
-
-
                 </div>
             </div>
-</div>
+        </div>
 		<!-- end main text -->
+    </div>
 </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
 
 
 
 <!-- section 3 -->
-<section class="sct3 section">
-<div class="row product-contact-top">
+<div class="section sct3 ">
+    <div class="row product-contact-top">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
                     <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
@@ -690,18 +600,18 @@ specified on packing.</p>
                 </button>
                 </a>
             </div>
-        </div>
-        <div class="text-center down pt-3">
-        <a href="#fifthPage">	
-           <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
-        </a>
-        </div>
-<div class="container-fluid">
-<div class="row">
-			<div class="col-12 pt-120 text-center z-index title">
+    </div>
 
+        <div class="text-center down pt-3">
+            <a href="#ninethPage">	
+                <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
+            </a>
+        </div>
+
+<div class="container-fluid">
+    <div class="row">
+			<div class="col-12 pt-120 text-center z-index title">
                 <div class="row align-items-end">
-                    
                     <div class="col-6">
                         <div class="col-5 justify-content-start scr3-item-pcs">
                             <table class="table table-condensed">
@@ -715,7 +625,6 @@ specified on packing.</p>
                                     </th>
                                 </tr>
                             </table>
-                            
                         </div>
                     </div>
 
@@ -730,39 +639,21 @@ outer layer.</p>
                         specified on packing.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
+        </div>
+    </div>
 </div>
-</div>
-</section>
 
 
 
 <!-- section 3 mobile -->
-<section class="section sct-mobile" id="section-mobile">
+<div class="" id="section-mobile">
   <!-- main text -->
-  <!-- <div class="row product-contact-top">
-            <div class="col-12 col-md-12 text-center">
-                <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
-                <?//= _CONTACT ?>
-                </button>
-                </a>
-            </div>
-        </div>
-        <div class="text-center down pt-3">
-        <a href="#secondPage">	
-           <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
-        </a>
-        </div> -->
-
 <div class="container">
-<div class="row">
+    <div class="row">
 			<div class="col-12 text-center">
-
-                <div class="row align-items-end px-4">
-                    
+                <div class="row mt-90 px-4">
                     <div class="col-lg-6 col-12">
                     <h1 class="text-bold pt-0 d-flex justify-content-start pl-4">LALAKU MAMA
 SANITARY NAPKINS</h1>
@@ -786,25 +677,18 @@ outer layer.</p>
                                 </tr>
                                 
                             </table>
-                            
                     </div>
-
-
                 </div>
             </div>
-</div>
+        </div>
 		<!-- end main text -->
+    </div>
 </div>
-    </section>
-
-
-
-
 
 
 <!-- section 4 -->
-<section class="sct4 section">
-<div class="row product-contact-top">
+<div class="section sct4">
+    <div class="row product-contact-top">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
                     <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
@@ -819,12 +703,12 @@ outer layer.</p>
         </a>
         </div>
 <div class="container-fluid">
-<div class="row">
+    <div class="row">
 			<div class="col-12 pt-120 text-center z-index title">
                 <div class="row align-items-end">
                     <div class="col-6">
                         <div class="description-content">
-                            <h1 class="text-bold pt-0 d-flex justify-content-end mr-5">LALAKU PANTS</h1>
+                            <h1 class="text-bold pt-0 d-flex justify-content-end mr-5">LALAKU KN 95 MASKS</h1>
                             <p class="mr-4">
                             KN95 filter masks (non-sterile respirators) have good air permeability property, without restricting breathing, 
 the nasal retainer provides a better fit considering individual features of the shape of the nose, designed for use in personal hygiene and as a means of protection against dust and odors, etc. Composition: Non-woven 
@@ -894,7 +778,7 @@ Expire date : 5 years.
 			</div>
 		</div>
 </div>
-</section>
+</div>
 
 
 
@@ -902,31 +786,16 @@ Expire date : 5 years.
 
 
 <!-- section 4 mobile -->
-<section class="section sct-mobile" id="section-mobile">
+<div class="" id="section-mobile">
   <!-- main text -->
-  <!-- <div class="row product-contact-top">
-            <div class="col-12 col-md-12 text-center">
-                <a href="contact.php">
-                    <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black px-5 textColor-left">
-                <?//= _CONTACT ?>
-                </button>
-                </a>
-            </div>
-        </div>
-        <div class="text-center down pt-3">
-        <a href="#secondPage">	
-           <img class="arrow-down animate-arrow" src="style/icons/arrow-down.svg" alt="down">
-        </a>
-        </div> -->
-
 <div class="container">
 <div class="row">
 			<div class="col-12 text-center">
 
-                <div class="row align-items-end px-4">
+                <div class="row mt-90 px-4">
                     
                     <div class="col-lg-6 col-12">
-                    <h1 class="text-bold pt-0 mr-5">LALAKU PANTS</h1>
+                    <h1 class="text-bold pt-0 mr-5">LALAKU KN 95 MASKS</h1>
                             <p class="mr-4">
                             KN95 filter masks (non-sterile respirators) have good air permeability property, without restricting breathing, 
 the nasal retainer provides a better fit considering individual features of the shape of the nose, designed for use in personal hygiene and as a means of protection against dust and odors, etc. Composition: Non-woven 
@@ -996,7 +865,7 @@ Expire date : 5 years.
 </div>
 		<!-- end main text -->
 </div>
-    </section>
+    </div>
 
 
 
@@ -1004,7 +873,7 @@ Expire date : 5 years.
 
 
 <!-- footer -->
-<section class="sct5 section">
+<div class="section sct5">
     <h1 class="text-center" style="color: gray;">ООО Sof Gigienik<p class="yellow mt-2">Copyright © 2020</p>
             <div class="row pt-120">
                 <div class="col-3 text-center">
@@ -1049,7 +918,7 @@ Expire date : 5 years.
 			<img class="arrow-up animate-arrow" src="style/icons/arrow-up.svg" alt="up">
         </a>
         </div>
-</section>
+</div>
 
 
 
@@ -1058,7 +927,6 @@ Expire date : 5 years.
 <!-- end whole page container -->
 	<script src="style/js/index.js"></script>
 	<script src="style/js/config-scrolling.js"></script>
-    <script src="style/js/mobile-product.js"></script>
 </body>
 
 </html>

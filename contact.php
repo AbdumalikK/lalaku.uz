@@ -13,6 +13,31 @@ $message = $_POST['comment'];
 // $recipient = "uzbekistanes2001@gmail.com";
 // mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 
+// $to = 'uzbekistanes2001@gmail.com';
+// $subject = 'Marriage Proposal';
+// $message = 'Hi Jane, will you marry me?'; 
+// $from = 'peterparker@email.com'
+ 
+// Sending email
+// if(mail($to, $email, $message)){
+//     echo 'Your mail has been sent successfully.';
+// } else{
+//     echo 'Unable to send email. Please try again.';
+// }
+
+// Send message to telegram
+$apiToken = "1461774021:AAHA2Eq6cOtFHhfh7qKCmhFs8y0VujLvepw";
+
+$message_tg = "Email: $email \n\Xabar: $message";
+
+$data = [
+    'chat_id' => '838418753',
+    'text' => $message_tg
+];
+
+$response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data) );
+
+
 
 // insert data to database
 $contact = "INSERT INTO contact (email, comment) VALUES ('$email', '$message')";
@@ -21,7 +46,7 @@ $contact = "INSERT INTO contact (email, comment) VALUES ('$email', '$message')";
 if($connect->query($contact) == TRUE) {
     echo header("Location: message_sent.php");
 } else {
-    echo "Error: ".$contact."</br>".$connect->$error;
+    echo "Error: ".$contact."</b>".$connect->$error;
 }
 
 }

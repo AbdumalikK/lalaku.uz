@@ -2,7 +2,7 @@ var myFullpage = new fullpage('#fullpage', {
 	//Navigation
 	menu: '#menu',
 	lockAnchors: false,
-	anchors:['firstPage', 'secondPage', 'thirdPage', 'forthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'eightPage'],
+	anchors:['firstPage', 'secondPage', 'thirdPage', 'forthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'eightPage', 'ninethPage', 'tenthPage', 'eleventhPage', 'twelthPage', 'thirteenthPage'],
 	navigation: true,
 	navigationPosition: 'right',
 	navigationTooltips: ['firstSlide', 'secondSlide'],
