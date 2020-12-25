@@ -125,9 +125,9 @@ function changeLang() {
 		<!-- main text -->
 		<div class="row title">
 			<div class="col-12 text-center">
-				<h1 class="text-bold">LALAKU PANTS</h1>
+				<h1 class="text-bold"><?= _PRODUCT1_NAME ?></h1>
 				<div class="wd-1020">
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+					<p><?= _PRODUCT1_TITLE ?></p>
 				</div>
 				<div class="row main-content-button pt-md-5">
 					<div class="col-12 col-md-6 text-md-right text-center">
@@ -154,9 +154,9 @@ function changeLang() {
 <section class="sct1 section">
 	<div class="row">
 		<div class="col-12 text-center">
-			<h1 class="text-bold pt-120">LALAKU DIAPERS</h1>
+			<h1 class="text-bold pt-120"><?= _PRODUCT2_NAME ?></h1>
 			<p class="wd-1020 p-3">
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+			<?= _PRODUCT2_TITLE ?>
 			</p>
 		</div>
 	</div>
@@ -186,9 +186,9 @@ function changeLang() {
 <section class="sct2 section">
 	<div class="row">
 		<div class="col-12 text-center">
-			<h1 class="text-bold pt-120">LALAKU DIAPERS</h1>
+			<h1 class="text-bold pt-120"><?= _PRODUCT3_NAME ?></h1>
 			<p class="wd-1020 p-3">
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+			<?= _PRODUCT3_TITLE ?>
 			</p>
 		</div>
 	</div>
@@ -215,9 +215,9 @@ function changeLang() {
 <section class="sct3 section">
 	<div class="row">
 		<div class="col-12 text-center">
-			<h1 class="text-bold pt-120">LALAKU DIAPERS</h1>
+			<h1 class="text-bold pt-120"><?= _PRODUCT4_NAME ?></h1>
 			<p class="wd-1020 p-3">
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+			<?= _PRODUCT1_TITLE ?>
 			</p>
 		</div>
 	</div>

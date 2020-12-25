@@ -137,18 +137,22 @@ function changeLang() {
             <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="style/images/products/product-1-png.png" alt="Los Angeles">
+                    <img src="style/images/products/product-slide-1.png" alt="lalaku-3">
                 </div>
                 <div class="carousel-item">
-                    <img src="style/images/products/product-2-png.png" alt="Chicago">
+                    <img src="style/images/products/product-slide-2.png" alt="lalaku-4">
                 </div>
                 <div class="carousel-item">
-                    <img src="style/images/products/product-3-png.png">
+                    <img src="style/images/products/product-slide-3.png" alt="lalaku-5">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-4.png" alt="lalaku-6">
                 </div>
             </div>
             
         </div>
     </div>
+
     <div class="row product-contact-top-first">
         <div class="col-12 col-md-12 text-center">
             <a href="contact.php">
@@ -175,8 +179,8 @@ function changeLang() {
 
                     <div class="col-lg-6 col-12">
                         <div class="description-content">
-                            <h1 class="text-bold pt-0 d-flex justify-content-end">LALAKU PANTS</h1>
-                            <p>Baby diapers "LALAKU" panties are specially created from natural materials using advanced technologies to provide maximum comfort for Your child. Baby diapers "LALAKU" contain: a special top layer with the addition of aloe Vera lotion; special materials that provide "breathing" of the delicate skin of the baby; specially absorbing system that perfectly distributes the liquid inside and protects against leakage up to 10 hours. Baby diapers "LALAKU" will provide reliable protection for Your baby!</p>
+                            <h1 class="text-bold pt-0 d-flex justify-content-end"><?= _PRO1_NAME ?></h1>
+                            <p><?= _PRO1_TITLE ?></p>
                         </div>
                     </div>
 
@@ -271,8 +275,8 @@ function changeLang() {
 			<div class="col-12 text-center">
                 <div class="row mt-90 px-4">
                     <div class="col-lg-6 col-12">
-                            <h1 class="text-bold pt-0">LALAKU PANTS</h1>
-                            <p>Baby diapers "LALAKU" panties are specially created from natural materials using advanced technologies to provide maximum comfort for Your child. Baby diapers "LALAKU" contain: a special top layer with the addition of aloe Vera lotion; special materials that provide "breathing" of the delicate skin of the baby; specially absorbing system that perfectly distributes the liquid inside and protects against leakage up to 10 hours. Baby diapers "LALAKU" will provide reliable protection for Your baby!</p>
+                            <h1 class="text-bold pt-0"><?= _PRO1_NAME ?></h1>
+                            <p><?= _PRO1_TITLE ?></p>
                     </div>
 
                     <div class="col-lg-6 col-12 mt-5">
@@ -358,8 +362,31 @@ function changeLang() {
 
 
 <!-- section 1 -->
-<div class="sct1 section">
-        <div class="row product-contact-top">
+<div class="sct0 section">
+         <!-- carousel images -->
+    <div class="item-carousel">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="style/images/products/product-slide-1.png" alt="lalaku-3">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-2.png" alt="lalaku-4">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-3.png" alt="lalaku-5">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-4.png" alt="lalaku-6">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+        <div class="row product-contact-top mt-minus-5">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
                     <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
@@ -425,8 +452,8 @@ function changeLang() {
 
                     <div class="col-6">
                         <div class="description-content spec-item-left">
-                            <h1 class="text-bold pt-0 d-flex justify-content-start pl-4">LALAKU DIAPERS</h1>
-                            <p>Baby diapers "LALAKU" are specially created from natural materials using advanced technologies to provide maximum comfort for Your child. Baby diapers "LALAKU" contain: a special top layer with the addition of aloe Vera lotion; special materials that provide "breathing" of the delicate skin of the baby; specially absorbing system that perfectly distributes the liquid inside and protects against leakage up to 10 hours. Baby diapers "LALAKU" will provide reliable protection for Your baby!</p>
+                            <h1 class="text-bold pt-0 d-flex justify-content-start pl-4"><?= _PRO2_NAME ?></h1>
+                            <p><?= _PRO2_TITLE ?></p>
                         </div>
                     </div>
 
@@ -446,8 +473,8 @@ function changeLang() {
 			<div class="col-12 text-center">
                 <div class="row mt-90 px-4">
                     <div class="col-lg-6 col-12">
-                        <h1 class="text-bold pt-0">LALAKU DIAPERS</h1>
-                        <p>Baby diapers "LALAKU" are specially created from natural materials using advanced technologies to provide maximum comfort for Your child. Baby diapers "LALAKU" contain: a special top layer with the addition of aloe Vera lotion; special materials that provide "breathing" of the delicate skin of the baby; specially absorbing system that perfectly distributes the liquid inside and protects against leakage up to 10 hours. Baby diapers "LALAKU" will provide reliable protection for Your baby!</p>
+                        <h1 class="text-bold pt-0"><?= _PRO2_NAME ?></h1>
+                        <p><?= _PRO2_TITLE ?></p>
                     </div>
 
                     <div class="col-lg-6 col-12 mt-5">
@@ -500,8 +527,31 @@ function changeLang() {
 
 
 <!-- section 2 -->
-<div class="section sct2">
-    <div class="row product-contact-top">
+<div class="section sct0">
+             <!-- carousel images -->
+             <div class="item-carousel">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="style/images/products/product-slide-1.png" alt="lalaku-3">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-2.png" alt="lalaku-4">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-3.png" alt="lalaku-5">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-4.png" alt="lalaku-6">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="row product-contact-top mt-minus-5">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
                     <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
@@ -522,13 +572,8 @@ function changeLang() {
                 <div class="row align-items-end">
                     <div class="col-6">
                         <div class="description-content mr-top-265">
-                            <h1 class="text-bold pt-0 d-flex justify-content-end">LALAKU MAMA
-POSTPARTUM PADS</h1>
-                            <p>Feminine hygienic postpartum absorbent pads. Composition: fluff pulp, nonwoven fabric, breathable 
-outer layer.
-
-Expire date: 3 years from the date manufacture 
-specified on packing.</p>
+                            <h1 class="text-bold pt-0 d-flex justify-content-end"><?= _PRO3_NAME ?></h1>
+                            <p><?= _PRO3_TITLE ?></p>
                         </div>
                         
                     </div>
@@ -562,13 +607,8 @@ specified on packing.</p>
 			<div class="col-12 text-center">
                 <div class="row mt-90 px-4">
                     <div class="col-lg-6 col-12">
-                    <h1 class="text-bold pt-0 d-flex justify-content-end">LALAKU MAMA
-POSTPARTUM PADS</h1>
-                            <p>Feminine hygienic postpartum absorbent pads. Composition: fluff pulp, nonwoven fabric, breathable 
-outer layer.
-
-Expire date: 3 years from the date manufacture 
-specified on packing.</p>
+                    <h1 class="text-bold pt-0 d-flex justify-content-end"><?= _PRO3_NAME ?></h1>
+                            <p><?= _PRO3_TITLE ?></p>
                     </div>
 
                     <div class="col-lg-6 col-12 mt-5">
@@ -591,8 +631,31 @@ specified on packing.</p>
 
 
 <!-- section 3 -->
-<div class="section sct3 ">
-    <div class="row product-contact-top">
+<div class="section sct0 ">
+             <!-- carousel images -->
+             <div class="item-carousel">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="style/images/products/product-slide-1.png" alt="lalaku-3">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-2.png" alt="lalaku-4">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-3.png" alt="lalaku-5">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-4.png" alt="lalaku-6">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="row product-contact-top mt-minus-5">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
                     <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
@@ -630,13 +693,8 @@ specified on packing.</p>
 
                     <div class="col-6">
                         <div class="description-content spec-item-left mr-top-265">
-                            <h1 class="text-bold pt-0 d-flex justify-content-start pl-4">LALAKU MAMA
-SANITARY NAPKINS</h1>
-                            <p>Feminine hygienic postpartum absorbent pads. Composition: fluff pulp, nonwoven fabric, breathable 
-outer layer.</p>
-                         <p>
-                        Expire date: 3 years from the date manufacture 
-                        specified on packing.</p>
+                            <h1 class="text-bold pt-0 d-flex justify-content-start pl-4"><?= _PRO4_NAME ?></h1>
+                            <p><?= _PRO4_TITLE ?></p>
                         </div>
                     </div>
                 </div>
@@ -655,13 +713,8 @@ outer layer.</p>
 			<div class="col-12 text-center">
                 <div class="row mt-90 px-4">
                     <div class="col-lg-6 col-12">
-                    <h1 class="text-bold pt-0 d-flex justify-content-start pl-4">LALAKU MAMA
-SANITARY NAPKINS</h1>
-                            <p>Feminine hygienic postpartum absorbent pads. Composition: fluff pulp, nonwoven fabric, breathable 
-outer layer.</p>
-                         <p>
-                        Expire date: 3 years from the date manufacture 
-                        specified on packing.</p>
+                    <h1 class="text-bold pt-0 d-flex justify-content-start pl-4"><?= _PRO4_NAME ?></h1>
+                            <p><?= _PRO4_TITLE ?></p>
                     </div>
 
                     <div class="col-lg-6 col-12 mt-5">
@@ -687,8 +740,31 @@ outer layer.</p>
 
 
 <!-- section 4 -->
-<div class="section sct4">
-    <div class="row product-contact-top">
+<div class="section sct0">
+             <!-- carousel images -->
+             <div class="item-carousel">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="style/images/products/product-slide-1.png" alt="lalaku-3">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-2.png" alt="lalaku-4">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-3.png" alt="lalaku-5">
+                </div>
+                <div class="carousel-item">
+                    <img src="style/images/products/product-slide-4.png" alt="lalaku-6">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="row product-contact-top mt-minus-5">
             <div class="col-12 col-md-12 text-center">
                 <a href="contact.php">
                     <button type="button" class="col-5 col-md-3 col-lg-2 btn btn-black textColor-left">
@@ -708,17 +784,9 @@ outer layer.</p>
                 <div class="row align-items-end">
                     <div class="col-6">
                         <div class="description-content">
-                            <h1 class="text-bold pt-0 d-flex justify-content-end mr-5">LALAKU KN 95 MASKS</h1>
+                            <h1 class="text-bold pt-0 d-flex justify-content-end mr-5"><?= _PRO5_NAME ?></h1>
                             <p class="mr-4">
-                            KN95 filter masks (non-sterile respirators) have good air permeability property, without restricting breathing, 
-the nasal retainer provides a better fit considering individual features of the shape of the nose, designed for use in personal hygiene and as a means of protection against dust and odors, etc. Composition: Non-woven 
-hypoallergenic polypropylene with an additional filtering layer, type of fixative: elastic band (ear loop), store 
-at + 15 ° С  + 25 ° С in a dry place protected 
-from direct sunlight. 
-</p>
-<p>
-Expire date : 5 years.
-                            </p>
+                            <?= _PRO5_TITLE ?> </p>
                         </div>
                         
                     </div>

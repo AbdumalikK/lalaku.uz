@@ -68,6 +68,9 @@
     .product-contact-top {
         margin-top: 140%;
     }
+    .mt-minus-5 {
+        margin-top: -30%!important;
+    }
 } 
 
 .description-content {
@@ -136,4 +139,7 @@ th {
 }
 .social-icon {
     color: darkslategray;
+}
+.mt-minus-5 {
+    margin-top: -5%;
 }

@@ -8,18 +8,13 @@ if(isset($_POST['submit'])) {
 // get of these value to variable
 $email = $_POST['email'];
 $message = $_POST['comment'];
-// $msg_date = strtotime('now');
-// $formcontent="From: $email \n Message: $message";
-// $recipient = "uzbekistanes2001@gmail.com";
-// mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 
-// $to = 'uzbekistanes2001@gmail.com';
-// $subject = 'Marriage Proposal';
-// $message = 'Hi Jane, will you marry me?'; 
-// $from = 'peterparker@email.com'
+
+// $to = 'lalakucash@gmail.com';
+// $messageEmail = $message; 
  
 // Sending email
-// if(mail($to, $email, $message)){
+// if(mail($to, $email, $messageEmail)){
 //     echo 'Your mail has been sent successfully.';
 // } else{
 //     echo 'Unable to send email. Please try again.';
@@ -27,7 +22,6 @@ $message = $_POST['comment'];
 
 // Send message to telegram
 $apiToken = "1461774021:AAHA2Eq6cOtFHhfh7qKCmhFs8y0VujLvepw";
-
 $message_tg = "Email: $email \n\Xabar: $message";
 
 $data = [
@@ -35,8 +29,7 @@ $data = [
     'text' => $message_tg
 ];
 
-$response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data) );
-
+$response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data));
 
 
 // insert data to database
@@ -136,7 +129,7 @@ if($connect->query($contact) == TRUE) {
     <!-- contaiener titles -->
     <div class="container pt-120">
         <div class="col-12 text-center">
-            <h1 class="contact-main-title">WE'RE HERE TO HELP</h1>
+            <h1 class="contact-main-title"><?= _CONTACT_TITLE ?></h1>
         </div>
     
         <div class="row mt-contact text-center">
