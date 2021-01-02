@@ -12,8 +12,7 @@ include_once "core/lang.php";
 	<meta name="description" content="Sofgigienik offical sayti">
 	<meta name="keywords" content="sofgigienik,lalaku,">
 	<link rel="stylesheet" href="style/bootstrap4/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="style/bootstrap4/js/bootstrap.min.js"></script>
 	<!-- <script src="style/js/index.js"></script> -->
@@ -273,35 +272,15 @@ function changeLang() {
 <section class="sct5 section">
 	<div class="row">
 		<div class="col-12 text-center">
-		<h1 class="text-center" style="color: gray;">ООО Sof Gigienik<p class="yellow mt-2">Copyright © 2020</p>
-
-			<!-- <p class="wd-1020 p-3">
+			<h1 class="text-bold pt-120">LALAKU DIAPERS</h1>
+			<p class="wd-1020 p-3">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-			</p> -->
+			</p>
 		</div>
 	</div>
 		<div class="row mt-footer footer">
-                <div class="col-3 text-center d-flex align-items-center justify-content-center">
-                    <a href="https://www.instagram.com/lalaku.uzbekistan/">
-                        <i class="fab fa-instagram social-icon"></i>
-                    </a>
-                </div>
-                <div class="col-3 text-center d-flex align-items-center justify-content-center">
-                    <a href="https://www.facebook.com/lalaku.uzbekistan/">
-                        <i class="fab fa-facebook-f social-icon"></i>
-                    </a>
-                </div>
-                <div class="col-3 text-center d-flex align-items-center justify-content-center">
-                    <a href="https://www.youtube.com/channel/UCCHvBrlmF-gCUR60zFiAexw">
-                        <i class="fab fa-youtube social-icon"></i>
-                    </a>
-                </div>
-                <div class="col-3 text-center d-flex align-items-center justify-content-center">
-                    <a href="">
-                        <i class="fab fa-whatsapp social-icon"></i>
-                    </a>
-                </div>
-            </div>
+		
+		</div>
 		<div class="text-center pt-5">
 		<a href="#firstPage">	
 			<img class="arrow-up animate-arrow" src="style/icons/arrow-up.svg" alt="up">

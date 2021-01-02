@@ -36,9 +36,6 @@
     width: 35%;
     margin: 0 auto;
 }
-.product-contact-top-first {
-    margin-top: -5%;
-}
 
 @media screen and (max-width: 700px) {
     .sct0, .sct1, .sct2, .sct3, .sct4 {
@@ -46,9 +43,6 @@
     }
     .item-carousel {
         width: 100%;
-    }
-    .product-contact-top-first {
-        margin-top: -40%;
     }
 }
 
@@ -64,9 +58,10 @@
 .product-contact-top {
     margin-top: 45%;
 }
+
 @media screen and (max-width: 570px) {
     .product-contact-top {
-        margin-top: 140%;
+        margin-top: -25%;
     }
 } 
 
@@ -123,17 +118,4 @@ th {
 }
 .mask-spec-right {
     margin-left: 285px!important;
-}
-.footer-icon {
-    color: gray;
-    font-size: 30px;
-}
-.mb600 {
-    margin-bottom: 600px;
-}
-.social-media {
-    margin-bottom: 200px;
-}
-.social-icon {
-    color: darkslategray;
 }
