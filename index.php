@@ -123,7 +123,7 @@ function changeLang() {
 	<!-- section 0 -->
 	<div class="sct0 section">
 		<!-- main text -->
-		<div class="row title">
+		<div class="row">
 			<div class="col-12 text-center">
 				<h1 class="text-bold"><?= _PRODUCT1_NAME ?></h1>
 				<div class="wd-1020">

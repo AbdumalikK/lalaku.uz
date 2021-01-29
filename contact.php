@@ -10,26 +10,26 @@ $email = $_POST['email'];
 $message = $_POST['comment'];
 
 
-// $to = 'lalakucash@gmail.com';
-// $messageEmail = $message; 
+$to = 'lalakucash@gmail.com';
+$messageEmail = $message; 
  
-// Sending email
-// if(mail($to, $email, $messageEmail)){
-//     echo 'Your mail has been sent successfully.';
-// } else{
-//     echo 'Unable to send email. Please try again.';
-// }
+//Sending email
+if(mail($to, $email, $messageEmail)){
+    echo 'Your mail has been sent successfully.';
+} else{
+    echo 'Unable to send email. Please try again.';
+}
 
 // Send message to telegram
-$apiToken = "1461774021:AAHA2Eq6cOtFHhfh7qKCmhFs8y0VujLvepw";
-$message_tg = "Email: $email \n\Xabar: $message";
+// $apiToken = "1461774021:AAHA2Eq6cOtFHhfh7qKCmhFs8y0VujLvepw";
+// $message_tg = "Email: $email \n \n Xabar: $message";
 
-$data = [
-    'chat_id' => '838418753',
-    'text' => $message_tg
-];
+// $data = [
+//     'chat_id' => '838418753',
+//     'text' => $message_tg
+// ];
 
-$response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data));
+// $response = file_get_contents('https://api.telegram.org/bot$apiToken/sendMessage?'.http_build_query($data).'/');
 
 
 // insert data to database
