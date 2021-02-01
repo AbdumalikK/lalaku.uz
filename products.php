@@ -137,16 +137,16 @@ function changeLang() {
             <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="style/images/products/product-slide-1.png" alt="lalaku-3">
+                    <img src="style/images/products/product-slide-1.jpg" alt="lalaku-3">
                 </div>
                 <div class="carousel-item">
-                    <img src="style/images/products/product-slide-2.png" alt="lalaku-4">
+                    <img src="style/images/products/product-slide-2.jpg" alt="lalaku-4">
                 </div>
                 <div class="carousel-item">
-                    <img src="style/images/products/product-slide-3.png" alt="lalaku-5">
+                    <img src="style/images/products/product-slide-3.jpg" alt="lalaku-5">
                 </div>
                 <div class="carousel-item">
-                    <img src="style/images/products/product-slide-4.png" alt="lalaku-6">
+                    <img src="style/images/products/product-slide-4.jpg" alt="lalaku-6">
                 </div>
             </div>
             
@@ -370,16 +370,10 @@ function changeLang() {
             <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="style/images/products/product-slide-1.png" alt="lalaku-3">
+                    <img src="style/images/products/dipers-slide-1.jpg" alt="diapers-1">
                 </div>
                 <div class="carousel-item">
-                    <img src="style/images/products/product-slide-2.png" alt="lalaku-4">
-                </div>
-                <div class="carousel-item">
-                    <img src="style/images/products/product-slide-3.png" alt="lalaku-5">
-                </div>
-                <div class="carousel-item">
-                    <img src="style/images/products/product-slide-4.png" alt="lalaku-6">
+                    <img src="style/images/products/dipers-slide-2.jpg" alt="diapers-2">
                 </div>
             </div>
             
@@ -535,16 +529,7 @@ function changeLang() {
             <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="style/images/products/product-slide-1.png" alt="lalaku-3">
-                </div>
-                <div class="carousel-item">
-                    <img src="style/images/products/product-slide-2.png" alt="lalaku-4">
-                </div>
-                <div class="carousel-item">
-                    <img src="style/images/products/product-slide-3.png" alt="lalaku-5">
-                </div>
-                <div class="carousel-item">
-                    <img src="style/images/products/product-slide-4.png" alt="lalaku-6">
+                    <img src="style/images/products/mama-1.jpg" alt="lalaku-3">
                 </div>
             </div>
             
@@ -639,16 +624,7 @@ function changeLang() {
             <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="style/images/products/product-slide-1.png" alt="lalaku-3">
-                </div>
-                <div class="carousel-item">
-                    <img src="style/images/products/product-slide-2.png" alt="lalaku-4">
-                </div>
-                <div class="carousel-item">
-                    <img src="style/images/products/product-slide-3.png" alt="lalaku-5">
-                </div>
-                <div class="carousel-item">
-                    <img src="style/images/products/product-slide-4.png" alt="lalaku-6">
+                    <img src="style/images/products/mama-2.jpg" alt="lalaku-3">
                 </div>
             </div>
             
@@ -748,16 +724,7 @@ function changeLang() {
             <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="style/images/products/product-slide-1.png" alt="lalaku-3">
-                </div>
-                <div class="carousel-item">
-                    <img src="style/images/products/product-slide-2.png" alt="lalaku-4">
-                </div>
-                <div class="carousel-item">
-                    <img src="style/images/products/product-slide-3.png" alt="lalaku-5">
-                </div>
-                <div class="carousel-item">
-                    <img src="style/images/products/product-slide-4.png" alt="lalaku-6">
+                    <img src="style/images/products/mask.jpg" alt="lalaku-3">
                 </div>
             </div>
             

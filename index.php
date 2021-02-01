@@ -244,7 +244,7 @@ function changeLang() {
 <section class="sct4 section">
 	<div class="row">
 		<div class="col-12 text-center">
-			<h1 class="text-bold pt-120">LALAKU DIAPERS</h1>
+			<h1 class="text-bold pt-120">LALAKU KN 95 MASKS</h1>
 			<p class="wd-1020 p-3">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
 			</p>
