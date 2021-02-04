@@ -32,6 +32,9 @@ include_once "core/lang.php";
     width: 100%;
     height: 100%;
   }
+  .btn-black{
+    z-index: 1;
+  }
   </style>
 <script>
 function changeLang() {
